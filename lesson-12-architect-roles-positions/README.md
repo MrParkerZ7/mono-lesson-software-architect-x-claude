@@ -1,14 +1,14 @@
-# Lesson 12: Architect Roles & Positions 🎭
+# Lesson 12: Architect Roles & Positions
 
-## 📋 Overview
+## Overview
 
 The software architecture field encompasses a diverse range of specialized roles, each with distinct responsibilities, focus areas, and career trajectories. Understanding these different architect positions is crucial for career planning, organizational structuring, and effective collaboration across technical teams.
 
-This lesson provides comprehensive coverage of 16 architect roles, from hands-on technical positions to executive leadership roles. Each sub-lesson details the specific responsibilities, day-to-day activities, required skills, deliverables, and how each role interacts with other positions in an organization.
+This lesson provides comprehensive coverage of 16 architect roles, organized by category: **Hands-On** (code-level implementation), **Generalist** (broad organizational scope), **Specialist** (deep technical expertise), and **Leadership** (executive direction). Each sub-lesson details the specific responsibilities, day-to-day activities, required skills, deliverables, and how each role interacts with other positions in an organization.
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -22,57 +22,74 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 📚 Sub-lessons
+## Sub-lessons
+
+### Hands-On Architects (Code-Level Implementation)
 
 | # | Topic | Description |
 |---|-------|-------------|
-| 01 | [Solution Architect](./01-solution-architect/README.md) | Designs end-to-end solutions for specific business problems |
-| 02 | [Enterprise Architect](./02-enterprise-architect/README.md) | Defines organization-wide technology strategy and standards |
-| 03 | [Application Architect](./03-application-architect/README.md) | Designs internal structure and behavior of applications |
-| 04 | [Technical Architect](./04-technical-architect/README.md) | Provides hands-on technical leadership and implementation guidance |
-| 05 | [Software Architect](./05-software-architect/README.md) | Designs software systems with focus on code-level decisions |
-| 06 | [Cloud Architect](./06-cloud-architect/README.md) | Specializes in cloud platform design and migration strategies |
-| 07 | [Data Architect](./07-data-architect/README.md) | Designs data models, pipelines, and storage strategies |
-| 08 | [Security Architect](./08-security-architect/README.md) | Designs security controls and ensures compliance |
-| 09 | [Infrastructure Architect](./09-infrastructure-architect/README.md) | Designs physical and virtual infrastructure |
-| 10 | [Integration Architect](./10-integration-architect/README.md) | Designs system interconnections and data flows |
-| 11 | [Platform Architect](./11-platform-architect/README.md) | Designs internal developer platforms and tooling |
-| 12 | [Systems Architect](./12-systems-architect/README.md) | Designs complex multi-component systems |
-| 13 | [Network Architect](./13-network-architect/README.md) | Designs network topology and connectivity |
-| 14 | [Principal/Staff Architect](./14-principal-staff-architect/README.md) | Senior IC role with organization-wide technical influence |
-| 15 | [Domain Architect](./15-domain-architect/README.md) | Specializes in specific business domain architecture |
-| 16 | [Chief Architect](./16-chief-architect/README.md) | Executive leadership role overseeing all architecture |
+| 01 | [Technical Architect](./01-handson-technical-architect/README.md) | Provides hands-on technical leadership and implementation guidance |
+| 02 | [Application Architect](./02-handson-application-architect/README.md) | Designs internal structure and behavior of applications |
+| 03 | [Software Architect](./03-handson-software-architect/README.md) | Designs software systems with focus on code-level decisions |
+
+### Generalist Architects (Broad Organizational Scope)
+
+| # | Topic | Description |
+|---|-------|-------------|
+| 04 | [Solution Architect](./04-generalist-solution-architect/README.md) | Designs end-to-end solutions for specific business problems |
+| 05 | [Domain Architect](./05-generalist-domain-architect/README.md) | Specializes in specific business domain architecture |
+| 06 | [Enterprise Architect](./06-generalist-enterprise-architect/README.md) | Defines organization-wide technology strategy and standards |
+
+### Specialist Architects (Deep Technical Expertise)
+
+| # | Topic | Description |
+|---|-------|-------------|
+| 07 | [Cloud Architect](./07-specialist-cloud-architect/README.md) | Specializes in cloud platform design and migration strategies |
+| 08 | [Data Architect](./08-specialist-data-architect/README.md) | Designs data models, pipelines, and storage strategies |
+| 09 | [Security Architect](./09-specialist-security-architect/README.md) | Designs security controls and ensures compliance |
+| 10 | [Infrastructure Architect](./10-specialist-infrastructure-architect/README.md) | Designs physical and virtual infrastructure |
+| 11 | [Network Architect](./11-specialist-network-architect/README.md) | Designs network topology and connectivity |
+| 12 | [Integration Architect](./12-specialist-integration-architect/README.md) | Designs system interconnections and data flows |
+| 13 | [Platform Architect](./13-specialist-platform-architect/README.md) | Designs internal developer platforms and tooling |
+| 14 | [Systems Architect](./14-specialist-systems-architect/README.md) | Designs complex multi-component systems |
+
+### Leadership Architects (Executive Direction)
+
+| # | Topic | Description |
+|---|-------|-------------|
+| 15 | [Principal/Staff Architect](./15-leadership-principal-staff-architect/README.md) | Senior IC role with organization-wide technical influence |
+| 16 | [Chief Architect](./16-leadership-chief-architect/README.md) | Executive leadership role overseeing all architecture |
 
 ---
 
-## 🗺️ Role Categories
+## Role Categories
 
-### By Scope
+### By Category Type
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                         ARCHITECT ROLE HIERARCHY                         │
+│                     ARCHITECT ROLE CATEGORIES                           │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                          │
-│  EXECUTIVE LEVEL                                                         │
+│  HANDS-ON (Code-Level Implementation)                                   │
 │  ┌─────────────────────────────────────────────────────────────────┐    │
-│  │  Chief Architect  │  Principal/Staff Architect                   │    │
+│  │  Technical Architect  │  Application Architect  │  Software     │    │
 │  └─────────────────────────────────────────────────────────────────┘    │
 │                                                                          │
-│  ENTERPRISE LEVEL                                                        │
+│  GENERALIST (Broad Organizational Scope)                                │
 │  ┌─────────────────────────────────────────────────────────────────┐    │
-│  │  Enterprise Architect  │  Domain Architect                       │    │
+│  │  Solution Architect  │  Domain Architect  │  Enterprise Architect│    │
 │  └─────────────────────────────────────────────────────────────────┘    │
 │                                                                          │
-│  SOLUTION LEVEL                                                          │
+│  SPECIALIST (Deep Technical Expertise)                                  │
 │  ┌─────────────────────────────────────────────────────────────────┐    │
-│  │  Solution Architect  │  Systems Architect  │  Platform Architect │    │
+│  │  Cloud  │  Data  │  Security  │  Infrastructure  │  Network     │    │
+│  │  Integration  │  Platform  │  Systems                            │    │
 │  └─────────────────────────────────────────────────────────────────┘    │
 │                                                                          │
-│  SPECIALIST LEVEL                                                        │
+│  LEADERSHIP (Executive Direction)                                       │
 │  ┌─────────────────────────────────────────────────────────────────┐    │
-│  │  Cloud  │  Data  │  Security  │  Network  │  Infrastructure     │    │
-│  │  Integration  │  Application  │  Technical  │  Software          │    │
+│  │  Principal/Staff Architect  │  Chief Architect                   │    │
 │  └─────────────────────────────────────────────────────────────────┘    │
 │                                                                          │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -82,40 +99,16 @@ By the end of this lesson, you will be able to:
 
 | Category | Roles | Primary Focus |
 |----------|-------|---------------|
-| **Business-Aligned** | Enterprise, Solution, Domain | Business strategy & capabilities |
-| **Application-Focused** | Application, Software, Technical | Code & application design |
-| **Infrastructure** | Cloud, Infrastructure, Network, Platform | Runtime environment |
-| **Data & Integration** | Data, Integration | Information flow & storage |
-| **Cross-Cutting** | Security, Systems | Spans multiple areas |
-| **Leadership** | Chief, Principal/Staff | Governance & direction |
+| **Hands-On** | Technical, Application, Software | Code & implementation excellence |
+| **Generalist** | Solution, Domain, Enterprise | Business alignment & broad scope |
+| **Specialist** | Cloud, Data, Security, Infrastructure, Network, Integration, Platform, Systems | Deep technical expertise |
+| **Leadership** | Principal/Staff, Chief | Governance & strategic direction |
 
 ---
 
-## 1. 🎯 Solution Architect
+## Hands-On Architects
 
-Bridges business requirements and technical implementation. Designs complete solutions for specific projects or initiatives, selecting appropriate technologies and defining integration patterns.
-
-**Key Focus**: Project-specific, end-to-end solution design
-
----
-
-## 2. 🏛️ Enterprise Architect
-
-Defines the overall technology landscape for an organization. Establishes standards, principles, and roadmaps that guide all technical decisions across the enterprise.
-
-**Key Focus**: Organization-wide strategy and governance
-
----
-
-## 3. 📱 Application Architect
-
-Focuses on the internal design of applications including component structure, design patterns, and code organization. Often works closely with development teams.
-
-**Key Focus**: Application internals and code architecture
-
----
-
-## 4. 🔧 Technical Architect
+### 1. Technical Architect
 
 Provides hands-on technical leadership with deep expertise in specific technologies. Often codes alongside the team while guiding architectural decisions.
 
@@ -123,7 +116,15 @@ Provides hands-on technical leadership with deep expertise in specific technolog
 
 ---
 
-## 5. 💻 Software Architect
+### 2. Application Architect
+
+Focuses on the internal design of applications including component structure, design patterns, and code organization. Often works closely with development teams.
+
+**Key Focus**: Application internals and code architecture
+
+---
+
+### 3. Software Architect
 
 Designs software systems with emphasis on code quality, maintainability, and technical debt management. Makes decisions about frameworks, libraries, and coding standards.
 
@@ -131,79 +132,17 @@ Designs software systems with emphasis on code quality, maintainability, and tec
 
 ---
 
-## 6. ☁️ Cloud Architect
+## Generalist Architects
 
-Specializes in cloud platform design, migration strategies, and cloud-native patterns. Expert in one or more major cloud providers (AWS, Azure, GCP).
+### 4. Solution Architect
 
-**Key Focus**: Cloud infrastructure and services
+Bridges business requirements and technical implementation. Designs complete solutions for specific projects or initiatives, selecting appropriate technologies and defining integration patterns.
 
----
-
-## 7. 📊 Data Architect
-
-Designs data models, storage solutions, and data pipelines. Ensures data quality, governance, and accessibility across the organization.
-
-**Key Focus**: Data management and analytics infrastructure
+**Key Focus**: Project-specific, end-to-end solution design
 
 ---
 
-## 8. 🔒 Security Architect
-
-Designs security controls, threat models, and compliance frameworks. Ensures systems meet security requirements and industry standards.
-
-**Key Focus**: Security posture and risk management
-
----
-
-## 9. 🖥️ Infrastructure Architect
-
-Designs physical and virtual infrastructure including servers, storage, and virtualization. Focuses on capacity, reliability, and performance.
-
-**Key Focus**: Infrastructure design and operations
-
----
-
-## 10. 🔗 Integration Architect
-
-Designs how systems connect and exchange data. Expert in APIs, messaging systems, and enterprise integration patterns.
-
-**Key Focus**: System interconnection and data flow
-
----
-
-## 11. 🛠️ Platform Architect
-
-Designs internal developer platforms, CI/CD pipelines, and developer tooling. Focuses on developer experience and productivity.
-
-**Key Focus**: Developer platforms and tooling
-
----
-
-## 12. ⚙️ Systems Architect
-
-Designs complex systems involving multiple components, hardware, and software. Common in embedded systems, aerospace, and telecommunications.
-
-**Key Focus**: Multi-component system design
-
----
-
-## 13. 🌐 Network Architect
-
-Designs network topology, protocols, and connectivity solutions. Expert in routing, switching, and network security.
-
-**Key Focus**: Network infrastructure and connectivity
-
----
-
-## 14. 🌟 Principal/Staff Architect
-
-Senior individual contributor role with broad technical influence. Sets technical direction and mentors other architects across the organization.
-
-**Key Focus**: Technical leadership and influence
-
----
-
-## 15. 🏢 Domain Architect
+### 5. Domain Architect
 
 Specializes in architecture for a specific business domain (e.g., payments, healthcare, supply chain). Deep understanding of domain-specific requirements.
 
@@ -211,7 +150,91 @@ Specializes in architecture for a specific business domain (e.g., payments, heal
 
 ---
 
-## 16. 👔 Chief Architect
+### 6. Enterprise Architect
+
+Defines the overall technology landscape for an organization. Establishes standards, principles, and roadmaps that guide all technical decisions across the enterprise.
+
+**Key Focus**: Organization-wide strategy and governance
+
+---
+
+## Specialist Architects
+
+### 7. Cloud Architect
+
+Specializes in cloud platform design, migration strategies, and cloud-native patterns. Expert in one or more major cloud providers (AWS, Azure, GCP).
+
+**Key Focus**: Cloud infrastructure and services
+
+---
+
+### 8. Data Architect
+
+Designs data models, storage solutions, and data pipelines. Ensures data quality, governance, and accessibility across the organization.
+
+**Key Focus**: Data management and analytics infrastructure
+
+---
+
+### 9. Security Architect
+
+Designs security controls, threat models, and compliance frameworks. Ensures systems meet security requirements and industry standards.
+
+**Key Focus**: Security posture and risk management
+
+---
+
+### 10. Infrastructure Architect
+
+Designs physical and virtual infrastructure including servers, storage, and virtualization. Focuses on capacity, reliability, and performance.
+
+**Key Focus**: Infrastructure design and operations
+
+---
+
+### 11. Network Architect
+
+Designs network topology, protocols, and connectivity solutions. Expert in routing, switching, and network security.
+
+**Key Focus**: Network infrastructure and connectivity
+
+---
+
+### 12. Integration Architect
+
+Designs how systems connect and exchange data. Expert in APIs, messaging systems, and enterprise integration patterns.
+
+**Key Focus**: System interconnection and data flow
+
+---
+
+### 13. Platform Architect
+
+Designs internal developer platforms, CI/CD pipelines, and developer tooling. Focuses on developer experience and productivity.
+
+**Key Focus**: Developer platforms and tooling
+
+---
+
+### 14. Systems Architect
+
+Designs complex systems involving multiple components, hardware, and software. Common in embedded systems, aerospace, and telecommunications.
+
+**Key Focus**: Multi-component system design
+
+---
+
+## Leadership Architects
+
+### 15. Principal/Staff Architect
+
+Senior individual contributor role with broad technical influence. Sets technical direction and mentors other architects across the organization.
+
+**Key Focus**: Technical leadership and influence
+
+---
+
+### 16. Chief Architect
 
 Executive role responsible for overall architectural vision and strategy. Reports to CTO/CIO and influences company-wide technical decisions.
 
@@ -219,55 +242,72 @@ Executive role responsible for overall architectural vision and strategy. Report
 
 ---
 
-## 📊 Role Comparison Matrix
+## Role Comparison Matrix
 
-| Role | Scope | Hands-On Coding | Business Interaction | Typical Reports To |
-|------|-------|-----------------|---------------------|-------------------|
-| Solution Architect | Project | Medium | High | Engineering Director |
-| Enterprise Architect | Organization | Low | Very High | CTO/CIO |
-| Application Architect | Application | High | Medium | Tech Lead/Director |
-| Technical Architect | Team/Project | Very High | Low | Engineering Manager |
-| Software Architect | Application | High | Medium | Engineering Director |
-| Cloud Architect | Infrastructure | Medium | Medium | Platform Lead |
-| Data Architect | Data Domain | Medium | High | Data Lead/CDO |
-| Security Architect | Cross-cutting | Medium | High | CISO |
-| Infrastructure Architect | Infrastructure | Medium | Low | IT Director |
-| Integration Architect | Cross-system | Medium | High | Enterprise Architect |
-| Platform Architect | Platform | High | Medium | VP Engineering |
-| Systems Architect | System | Medium | Medium | Engineering Director |
-| Network Architect | Network | Medium | Low | IT Director |
-| Principal/Staff Architect | Organization | Variable | High | CTO/VP Engineering |
-| Domain Architect | Business Domain | Low | Very High | Enterprise Architect |
-| Chief Architect | Organization | Low | Very High | CTO/CEO |
+| Role | Category | Scope | Hands-On Coding | Business Interaction | Typical Reports To |
+|------|----------|-------|-----------------|---------------------|-------------------|
+| Technical Architect | Hands-On | Team/Project | Very High | Low | Engineering Manager |
+| Application Architect | Hands-On | Application | High | Medium | Tech Lead/Director |
+| Software Architect | Hands-On | Application | High | Medium | Engineering Director |
+| Solution Architect | Generalist | Project | Medium | High | Engineering Director |
+| Domain Architect | Generalist | Business Domain | Low | Very High | Enterprise Architect |
+| Enterprise Architect | Generalist | Organization | Low | Very High | CTO/CIO |
+| Cloud Architect | Specialist | Infrastructure | Medium | Medium | Platform Lead |
+| Data Architect | Specialist | Data Domain | Medium | High | Data Lead/CDO |
+| Security Architect | Specialist | Cross-cutting | Medium | High | CISO |
+| Infrastructure Architect | Specialist | Infrastructure | Medium | Low | IT Director |
+| Network Architect | Specialist | Network | Medium | Low | IT Director |
+| Integration Architect | Specialist | Cross-system | Medium | High | Enterprise Architect |
+| Platform Architect | Specialist | Platform | High | Medium | VP Engineering |
+| Systems Architect | Specialist | System | Medium | Medium | Engineering Director |
+| Principal/Staff Architect | Leadership | Organization | Variable | High | CTO/VP Engineering |
+| Chief Architect | Leadership | Organization | Low | Very High | CTO/CEO |
 
 ---
 
-## 💰 Salary Ranges (USD, 2024)
+## Salary Ranges (USD, 2024)
+
+### Hands-On Architects
+
+| Role | Entry Level | Mid Level | Senior Level |
+|------|-------------|-----------|--------------|
+| Technical Architect | $100K-$130K | $130K-$160K | $160K-$190K |
+| Application Architect | $110K-$140K | $140K-$170K | $170K-$200K |
+| Software Architect | $110K-$140K | $140K-$170K | $170K-$210K |
+
+### Generalist Architects
 
 | Role | Entry Level | Mid Level | Senior Level |
 |------|-------------|-----------|--------------|
 | Solution Architect | $120K-$150K | $150K-$180K | $180K-$220K |
+| Domain Architect | $140K-$170K | $170K-$200K | $200K-$250K |
 | Enterprise Architect | $140K-$170K | $170K-$200K | $200K-$280K |
-| Application Architect | $110K-$140K | $140K-$170K | $170K-$200K |
-| Technical Architect | $100K-$130K | $130K-$160K | $160K-$190K |
-| Software Architect | $110K-$140K | $140K-$170K | $170K-$210K |
+
+### Specialist Architects
+
+| Role | Entry Level | Mid Level | Senior Level |
+|------|-------------|-----------|--------------|
 | Cloud Architect | $130K-$160K | $160K-$190K | $190K-$240K |
 | Data Architect | $120K-$150K | $150K-$180K | $180K-$230K |
 | Security Architect | $130K-$160K | $160K-$200K | $200K-$260K |
 | Infrastructure Architect | $110K-$140K | $140K-$170K | $170K-$200K |
+| Network Architect | $100K-$130K | $130K-$160K | $160K-$190K |
 | Integration Architect | $115K-$145K | $145K-$175K | $175K-$210K |
 | Platform Architect | $130K-$160K | $160K-$190K | $190K-$230K |
 | Systems Architect | $120K-$150K | $150K-$180K | $180K-$220K |
-| Network Architect | $100K-$130K | $130K-$160K | $160K-$190K |
+
+### Leadership Architects
+
+| Role | Entry Level | Mid Level | Senior Level |
+|------|-------------|-----------|--------------|
 | Principal/Staff Architect | $180K-$220K | $220K-$280K | $280K-$400K |
-| Domain Architect | $140K-$170K | $170K-$200K | $200K-$250K |
 | Chief Architect | $200K-$280K | $280K-$350K | $350K-$500K+ |
 
 *Note: Salaries vary significantly by location, company size, and industry*
 
 ---
 
-## 🎯 Choosing Your Path
+## Choosing Your Path
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -277,18 +317,30 @@ Executive role responsible for overall architectural vision and strategy. Report
 │  What energizes you most?                                                │
 │                                                                          │
 │  ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐   │
-│  │ Business Strategy│    │ Deep Technology  │    │ Building Teams   │   │
-│  │ & Big Picture    │    │ & Hands-On Work  │    │ & Mentoring      │   │
+│  │ Hands-On Coding  │    │ Business Strategy│    │ Deep Technical   │   │
+│  │ & Implementation │    │ & Big Picture    │    │ Expertise        │   │
 │  └────────┬─────────┘    └────────┬─────────┘    └────────┬─────────┘   │
 │           │                       │                       │              │
 │           ▼                       ▼                       ▼              │
 │  ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐   │
-│  │ Enterprise       │    │ Technical/       │    │ Principal/       │   │
-│  │ Solution         │    │ Application/     │    │ Staff/           │   │
-│  │ Domain           │    │ Software         │    │ Chief            │   │
-│  │ Chief            │    │ Cloud/Data/      │    │                  │   │
-│  │                  │    │ Security/etc.    │    │                  │   │
+│  │ HANDS-ON         │    │ GENERALIST       │    │ SPECIALIST       │   │
+│  │ Technical        │    │ Solution         │    │ Cloud/Data/      │   │
+│  │ Application      │    │ Domain           │    │ Security/        │   │
+│  │ Software         │    │ Enterprise       │    │ Infrastructure/  │   │
+│  │                  │    │                  │    │ Network/etc.     │   │
 │  └──────────────────┘    └──────────────────┘    └──────────────────┘   │
+│                                                                          │
+│                    ┌──────────────────┐                                  │
+│                    │ Want to lead &   │                                  │
+│                    │ mentor others?   │                                  │
+│                    └────────┬─────────┘                                  │
+│                             │                                            │
+│                             ▼                                            │
+│                    ┌──────────────────┐                                  │
+│                    │ LEADERSHIP       │                                  │
+│                    │ Principal/Staff  │                                  │
+│                    │ Chief Architect  │                                  │
+│                    └──────────────────┘                                  │
 │                                                                          │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -298,6 +350,7 @@ Executive role responsible for overall architectural vision and strategy. Report
 ## Key Takeaways
 
 - **No single "correct" path** - Each architect role offers unique challenges and rewards
+- **Categories help understand focus** - Hands-On (implementation), Generalist (breadth), Specialist (depth), Leadership (direction)
 - **Roles overlap** - Many responsibilities are shared across architect positions
 - **Hybrid roles exist** - Organizations often combine roles based on their needs
 - **Specialization vs. breadth** - Some roles require deep expertise, others require broad knowledge
