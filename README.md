@@ -24,8 +24,9 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 09 | Observability & Monitoring | ✅ |
 | 10 | Soft Skills | ✅ |
 | 11 | Career Path | ✅ |
+| 12 | Architect Roles & Positions | ⬜ (No diagrams - text-based lesson) |
 
-**Diagrams: 12/12 lessons completed**
+**Diagrams: 12/13 lessons completed**
 
 ---
 
@@ -155,7 +156,27 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 06 - Networking & Community | [README](./lesson-11-career-path/06-networking-community/README.md) | [6.1 Networking Channels](./lesson-11-career-path/06-networking-community/6.1-networking-channels.drawio) / [png](./lesson-11-career-path/06-networking-community/6.1-networking-channels.png) |
 | 07 - Continuous Learning Strategy | [README](./lesson-11-career-path/07-continuous-learning-strategy/README.md) | [7.1 Learning Strategy](./lesson-11-career-path/07-continuous-learning-strategy/7.1-learning-strategy.drawio) / [png](./lesson-11-career-path/07-continuous-learning-strategy/7.1-learning-strategy.png) |
 
-**Total:** 76 Sub-Lessons | 159 Diagrams | 159 Images
+### Lesson 12 - Architect Roles & Positions
+| Sub-lesson | README | Description |
+|------------|--------|-------------|
+| 01 - Solution Architect | [README](./lesson-12-architect-roles-positions/01-solution-architect/README.md) | Bridges business and technical, designs end-to-end solutions |
+| 02 - Enterprise Architect | [README](./lesson-12-architect-roles-positions/02-enterprise-architect/README.md) | Organization-wide technology strategy and standards |
+| 03 - Application Architect | [README](./lesson-12-architect-roles-positions/03-application-architect/README.md) | Internal application structure and design patterns |
+| 04 - Technical Architect | [README](./lesson-12-architect-roles-positions/04-technical-architect/README.md) | Hands-on technical leadership and implementation guidance |
+| 05 - Software Architect | [README](./lesson-12-architect-roles-positions/05-software-architect/README.md) | Software design, quality, and development practices |
+| 06 - Cloud Architect | [README](./lesson-12-architect-roles-positions/06-cloud-architect/README.md) | Cloud platform design and migration strategies |
+| 07 - Data Architect | [README](./lesson-12-architect-roles-positions/07-data-architect/README.md) | Data models, pipelines, and governance |
+| 08 - Security Architect | [README](./lesson-12-architect-roles-positions/08-security-architect/README.md) | Security controls and compliance frameworks |
+| 09 - Infrastructure Architect | [README](./lesson-12-architect-roles-positions/09-infrastructure-architect/README.md) | Physical and virtual infrastructure design |
+| 10 - Integration Architect | [README](./lesson-12-architect-roles-positions/10-integration-architect/README.md) | System interconnections and data flows |
+| 11 - Platform Architect | [README](./lesson-12-architect-roles-positions/11-platform-architect/README.md) | Internal developer platforms and tooling |
+| 12 - Systems Architect | [README](./lesson-12-architect-roles-positions/12-systems-architect/README.md) | Complex multi-component systems (hardware + software) |
+| 13 - Network Architect | [README](./lesson-12-architect-roles-positions/13-network-architect/README.md) | Network topology and connectivity solutions |
+| 14 - Principal/Staff Architect | [README](./lesson-12-architect-roles-positions/14-principal-staff-architect/README.md) | Senior IC with organization-wide technical influence |
+| 15 - Domain Architect | [README](./lesson-12-architect-roles-positions/15-domain-architect/README.md) | Specializes in specific business domain architecture |
+| 16 - Chief Architect | [README](./lesson-12-architect-roles-positions/16-chief-architect/README.md) | Executive leadership overseeing all architecture |
+
+**Total:** 92 Sub-Lessons | 159 Diagrams | 159 Images
 
 ---
 
