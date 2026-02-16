@@ -97,62 +97,79 @@ Common reporting relationships for architects:
 
 ## 📊 2.3 Types of Architect Roles
 
-Different architect roles have different scopes and focuses:
+The software architecture field encompasses 16 distinct roles organized into four categories:
 
 ```
 ┌────────────────────────────────────────────────────────────────────┐
-│                    📊 Architect Role Hierarchy                      │
+│                 📊 Architect Role Categories                        │
 ├────────────────────────────────────────────────────────────────────┤
 │                                                                     │
-│  Scope                                                              │
-│    ▲                                                                │
-│    │    ┌─────────────────────────────────────────────┐            │
-│    │    │      🎯 Chief/Principal Architect           │            │
-│    │    │    (Organization-wide technical vision)     │            │
-│    │    └─────────────────────────────────────────────┘            │
-│    │                         │                                      │
-│    │    ┌────────────────────┼────────────────────┐                │
-│    │    │                    │                    │                │
-│    │    ▼                    ▼                    ▼                │
-│    │ ┌─────────┐      ┌───────────┐      ┌────────────┐           │
-│    │ │🏢       │      │  🗺️       │      │  ☁️        │           │
-│    │ │Enterprise│      │  Domain   │      │  Platform  │           │
-│    │ │Architect │      │ Architect │      │  Architect │           │
-│    │ │(Strategy)│      │(Business  │      │(Infra/     │           │
-│    │ │          │      │ Domain)   │      │ Cloud)     │           │
-│    │ └─────────┘      └───────────┘      └────────────┘           │
-│    │        │                │                  │                   │
-│    │        └────────────────┼──────────────────┘                   │
-│    │                         │                                      │
-│    │                         ▼                                      │
-│    │              ┌───────────────────┐                            │
-│    │              │ 🔧 Solution       │                            │
-│    │              │   Architect       │                            │
-│    │              │ (Project/Product) │                            │
-│    │              └───────────────────┘                            │
-│    │                         │                                      │
-│    │                         ▼                                      │
-│    │              ┌───────────────────┐                            │
-│    │              │ 💻 Technical Lead/│                            │
-│    │              │ Application Arch  │                            │
-│    │              │ (Team level)      │                            │
-│    │              └───────────────────┘                            │
-│    │                                                                │
-│    └────────────────────────────────────────────────────▶ Detail   │
+│  LEADERSHIP (Executive Direction)                                   │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  👔 Chief Architect  │  🌟 Principal/Staff Architect         │   │
+│  │  (Executive vision)     (Senior IC, org-wide influence)      │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                              │                                      │
+│  GENERALIST (Broad Organizational Scope)                           │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  🏢 Enterprise     │  🗺️ Domain        │  🔧 Solution       │   │
+│  │  (Org strategy)       (Business domain)   (Project scope)    │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                              │                                      │
+│  SPECIALIST (Deep Technical Expertise)                             │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  ☁️ Cloud    │  📊 Data     │  🔒 Security  │  🖥️ Infra    │   │
+│  │  🌐 Network  │  🔗 Integration │  🛠️ Platform │  ⚙️ Systems │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                              │                                      │
+│  HANDS-ON (Code-Level Implementation)                              │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  🔧 Technical      │  📱 Application    │  💻 Software      │   │
+│  │  (Implementation)     (App internals)      (Code design)     │   │
+│  └─────────────────────────────────────────────────────────────┘   │
 │                                                                     │
 └────────────────────────────────────────────────────────────────────┘
 ```
 
-### 📋 Role Comparison
+### 📋 Role Comparison by Category
+
+#### Leadership Roles
 
 | Role | Scope | Focus | Typical Deliverables |
 |------|-------|-------|---------------------|
-| **🎯 Chief/Principal Architect** | Organization | Technical vision, standards, governance | Architecture principles, technology radar |
+| **👔 Chief Architect** | Organization | Executive vision, strategic direction | Architecture vision, governance frameworks |
+| **🌟 Principal/Staff Architect** | Organization | Technical leadership, mentoring | Architecture principles, technology radar |
+
+#### Generalist Roles
+
+| Role | Scope | Focus | Typical Deliverables |
+|------|-------|-------|---------------------|
 | **🏢 Enterprise Architect** | Enterprise | Business-IT alignment, portfolio | Capability maps, roadmaps |
 | **🗺️ Domain Architect** | Business domain | Domain-specific solutions | Domain models, integration patterns |
-| **☁️ Platform Architect** | Infrastructure | Cloud, infrastructure, DevOps | Platform architecture, IaC standards |
 | **🔧 Solution Architect** | Project/Product | End-to-end solution design | Solution architecture, technical specs |
-| **💻 Application Architect** | Application | Application design, frameworks | Application architecture, coding standards |
+
+#### Specialist Roles
+
+| Role | Scope | Focus | Typical Deliverables |
+|------|-------|-------|---------------------|
+| **☁️ Cloud Architect** | Infrastructure | Cloud platforms, migration | Cloud architecture, cost optimization |
+| **📊 Data Architect** | Data domain | Data models, pipelines | Data models, governance policies |
+| **🔒 Security Architect** | Cross-cutting | Security controls, compliance | Threat models, security standards |
+| **🖥️ Infrastructure Architect** | Infrastructure | Servers, storage, virtualization | Infrastructure designs, capacity plans |
+| **🌐 Network Architect** | Network | Topology, connectivity | Network diagrams, protocol standards |
+| **🔗 Integration Architect** | Cross-system | APIs, messaging | Integration patterns, API standards |
+| **🛠️ Platform Architect** | Platform | Developer platforms, CI/CD | Platform architecture, DevEx standards |
+| **⚙️ Systems Architect** | System | Multi-component systems | System designs, interface specs |
+
+#### Hands-On Roles
+
+| Role | Scope | Focus | Typical Deliverables |
+|------|-------|-------|---------------------|
+| **🔧 Technical Architect** | Team/Project | Implementation guidance | Technical designs, code reviews |
+| **📱 Application Architect** | Application | App structure, patterns | Application architecture, coding standards |
+| **💻 Software Architect** | Application | Code quality, maintainability | Software designs, framework decisions |
+
+> 📚 **Deep Dive**: For comprehensive details on each of these 16 architect roles including day-to-day activities, required skills, career paths, and salary ranges, see [Lesson 12: Architect Roles & Positions](../../lesson-12-architect-roles-positions/README.md).
 
 ## 🔗 2.4 Architect's Relationship with Other Roles
 
