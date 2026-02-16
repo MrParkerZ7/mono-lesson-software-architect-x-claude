@@ -56,6 +56,10 @@ By the end of this lesson, you will be able to:
 - 📔 "Team Topologies" - Matthew Skelton & Manuel Pais
 - 📒 "Staff Engineer: Leadership Beyond the Management Track" - Will Larson
 
+### Related Lessons
+
+- 📚 [Lesson 12: Architect Roles & Positions](../lesson-12-architect-roles-positions/README.md) - Detailed breakdown of all 16 architect roles including day-to-day activities, required skills, and career paths
+
 ---
 
 ## 🎓 Summary

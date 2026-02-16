@@ -180,3 +180,9 @@
 ## Diagrams in This Section
 
 - [1.1-career-ladder.drawio](./1.1-career-ladder.drawio)
+
+---
+
+## Further Reading
+
+- [Lesson 12: Architect Roles & Positions](../../lesson-12-architect-roles-positions/README.md) - Detailed breakdown of all 16 architect roles and their career paths
