@@ -363,15 +363,43 @@ Software Architects serve as the technical visionaries who define the blueprint 
 
 ## Architecture Types by Specialization
 
+> 📚 **Detailed Information**: See [Lesson 12: Architect Roles & Positions](./lesson-12-architect-roles-positions/README.md) for comprehensive details on all 16 architect roles.
+
+### Hands-On Architects (Code-Level Implementation)
+
+| Architect Type | Focus Area |
+|----------------|------------|
+| **Technical Architect** | ✅✅ Hands-on technical leadership, implementation guidance |
+| **Application Architect** | ✅✅ Application design, ✅✅✅ frameworks, ✅✅✅ development practices |
+| **Software Architect** | ✅✅ Code quality, maintainability, technical debt management |
+
+### Generalist Architects (Broad Organizational Scope)
+
 | Architect Type | Focus Area |
 |----------------|------------|
 | **Solution Architect** | ✅🆗 End-to-end solution design for specific business problems |
+| **Domain Architect** | 🆗 Business domain expertise, domain-specific solutions |
 | **Enterprise Architect** | ✅🆗 Organization-wide technology strategy standards |
+
+### Specialist Architects (Deep Technical Expertise)
+
+| Architect Type | Focus Area |
+|----------------|------------|
 | **Cloud Architect** | ✅ Cloud infrastructure, 🆗 migration, ❓ cloud-native design |
-| **Security Architect** | Security controls, compliance, threat modeling |
 | **Data Architect** | ✅❓ Data strategy, modeling, governance, ✅✅ analytics |
+| **Security Architect** | 🆗 Security controls, compliance, threat modeling |
 | **Infrastructure Architect** | 🆗 Hardware, networking, ✅ platform infrastructure |
-| **Application Architect** | ✅✅ Application design, ✅✅✅ frameworks, ✅✅✅ development practices |
+| **Network Architect** | 🆗 Network topology, protocols, connectivity |
+| **Integration Architect** | ✅ APIs, messaging, system interconnections |
+| **Platform Architect** | ✅ Developer platforms, CI/CD, tooling |
+| **Systems Architect** | 🆗 Multi-component systems, hardware + software |
+
+### Leadership Architects (Executive Direction)
+
+| Architect Type | Focus Area |
+|----------------|------------|
+| **Principal/Staff Architect** | ✅ Technical leadership, cross-team influence, mentoring |
+| **Chief Architect** | 🆗 Executive vision, governance, strategic direction |
 
 ---
 
