@@ -84,46 +84,59 @@ By the end of this lesson, you will be able to:
 
 ## 2. 🎯 Architect Specializations
 
-### 2.1 Specialization Overview
+### 2.1 The 16 Architect Roles
+
+The architecture field encompasses **16 distinct roles** organized into four categories:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                 Architect Specializations                    │
-│                                                              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │  Solutions   │  │  Enterprise  │  │    Cloud     │      │
-│  │  Architect   │  │  Architect   │  │  Architect   │      │
-│  │              │  │              │  │              │      │
-│  │ • Project-   │  │ • Org-wide   │  │ • Cloud      │      │
-│  │   focused    │  │   strategy   │  │   platforms  │      │
-│  │ • Client-    │  │ • Standards  │  │ • Migration  │      │
-│  │   facing     │  │   & governance│ │ • Cost opt   │      │
-│  │ • Technical  │  │ • Integration│  │ • Multi-cloud│      │
-│  │   sales      │  │   roadmaps   │  │   strategy   │      │
-│  └──────────────┘  └──────────────┘  └──────────────┘      │
-│                                                              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │   Security   │  │    Data      │  │  Application │      │
-│  │  Architect   │  │  Architect   │  │  Architect   │      │
-│  │              │  │              │  │              │      │
-│  │ • Security   │  │ • Data       │  │ • Application│      │
-│  │   frameworks │  │   modeling   │  │   design     │      │
-│  │ • Threat     │  │ • Analytics  │  │ • API design │      │
-│  │   modeling   │  │   platforms  │  │ • Frameworks │      │
-│  │ • Compliance │  │ • ML/AI infra│  │ • Patterns   │      │
-│  └──────────────┘  └──────────────┘  └──────────────┘      │
-└─────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
+│                 📊 Architect Role Categories                        │
+├────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  LEADERSHIP (Executive Direction)                                   │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  👔 Chief Architect  │  🌟 Principal/Staff Architect         │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+│  GENERALIST (Broad Organizational Scope)                           │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  🏢 Enterprise     │  🗺️ Domain        │  🔧 Solution       │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+│  SPECIALIST (Deep Technical Expertise)                             │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  ☁️ Cloud    │  📊 Data     │  🔒 Security  │  🖥️ Infra    │   │
+│  │  🌐 Network  │  🔗 Integration │  🛠️ Platform │  ⚙️ Systems │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+│  HANDS-ON (Code-Level Implementation)                              │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  🔧 Technical      │  📱 Application    │  💻 Software      │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+└────────────────────────────────────────────────────────────────────┘
 ```
 
-### 2.2 Choosing Your Path
+> 📚 **Deep Dive**: See [Lesson 12: Architect Roles & Positions](../lesson-12-architect-roles-positions/README.md) for detailed information on all 16 roles.
+
+### 2.2 Category Summary
+
+| Category | Roles | Focus |
+|----------|-------|-------|
+| **Hands-On** | Technical, Application, Software | Code-level implementation, high coding involvement |
+| **Generalist** | Solution, Domain, Enterprise | Broad scope, business alignment |
+| **Specialist** | Cloud, Data, Security, Infrastructure, Network, Integration, Platform, Systems | Deep expertise in specific technology |
+| **Leadership** | Principal/Staff, Chief | Strategic direction, governance |
+
+### 2.3 Choosing Your Path
 
 | Factor | Consider |
 |--------|----------|
-| **Current skills** | Which specialization aligns with your strengths? |
-| **Market demand** | What's in demand in your region/industry? |
-| **Interest** | What problems excite you most? |
-| **Company needs** | What does your organization need? |
-| **Long-term trends** | Where is the industry heading? |
+| **Love coding?** | Yes → Hands-On roles; No → Generalist/Leadership |
+| **Depth vs breadth?** | Depth → Specialist; Breadth → Generalist |
+| **Client-facing?** | Yes → Solution Architect; No → Technical/Specialist |
+| **Want to lead?** | Yes → Leadership roles; No → IC in any category |
+| **Market demand** | Cloud, Security, Data currently highest demand |
 
 ---
 

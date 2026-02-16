@@ -6,240 +6,232 @@
 
 ## 2.1 Specialization Landscape
 
+The software architecture field encompasses **16 distinct roles** organized into four categories based on their primary focus:
+
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                 Architect Specializations                    │
-│                                                              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │  Solutions   │  │  Enterprise  │  │    Cloud     │      │
-│  │  Architect   │  │  Architect   │  │  Architect   │      │
-│  │              │  │              │  │              │      │
-│  │ • Project-   │  │ • Org-wide   │  │ • Cloud      │      │
-│  │   focused    │  │   strategy   │  │   platforms  │      │
-│  │ • Client-    │  │ • Standards  │  │ • Migration  │      │
-│  │   facing     │  │   & governance│ │ • Cost opt   │      │
-│  │ • Technical  │  │ • Integration│  │ • Multi-cloud│      │
-│  │   sales      │  │   roadmaps   │  │   strategy   │      │
-│  └──────────────┘  └──────────────┘  └──────────────┘      │
-│                                                              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │   Security   │  │    Data      │  │  Application │      │
-│  │  Architect   │  │  Architect   │  │  Architect   │      │
-│  │              │  │              │  │              │      │
-│  │ • Security   │  │ • Data       │  │ • Application│      │
-│  │   frameworks │  │   modeling   │  │   design     │      │
-│  │ • Threat     │  │ • Analytics  │  │ • API design │      │
-│  │   modeling   │  │   platforms  │  │ • Frameworks │      │
-│  │ • Compliance │  │ • ML/AI infra│  │ • Patterns   │      │
-│  └──────────────┘  └──────────────┘  └──────────────┘      │
-└─────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────┐
+│                 📊 Architect Role Categories                        │
+├────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  LEADERSHIP (Executive Direction)                                   │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  👔 Chief Architect  │  🌟 Principal/Staff Architect         │   │
+│  │  (Executive vision)     (Senior IC, org-wide influence)      │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                              │                                      │
+│  GENERALIST (Broad Organizational Scope)                           │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  🏢 Enterprise     │  🗺️ Domain        │  🔧 Solution       │   │
+│  │  (Org strategy)       (Business domain)   (Project scope)    │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                              │                                      │
+│  SPECIALIST (Deep Technical Expertise)                             │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  ☁️ Cloud    │  📊 Data     │  🔒 Security  │  🖥️ Infra    │   │
+│  │  🌐 Network  │  🔗 Integration │  🛠️ Platform │  ⚙️ Systems │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                              │                                      │
+│  HANDS-ON (Code-Level Implementation)                              │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  🔧 Technical      │  📱 Application    │  💻 Software      │   │
+│  │  (Implementation)     (App internals)      (Code design)     │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+└────────────────────────────────────────────────────────────────────┘
 ```
+
+> 📚 **Detailed Information**: For comprehensive details on each role including day-to-day activities, required skills, career paths, and salary ranges, see [Lesson 12: Architect Roles & Positions](../../lesson-12-architect-roles-positions/README.md).
 
 ---
 
-## 2.2 Specialization Deep Dives
+## 2.2 Role Categories Explained
 
-### Solutions Architect
+### Understanding Categories
 
-**Primary Focus**: Designing solutions for specific customer or project needs
+| Category | Focus | Depth vs Breadth | Hands-On Coding |
+|----------|-------|------------------|-----------------|
+| **Hands-On** | Code-level implementation | Deep technical | Very High |
+| **Generalist** | Business alignment, broad scope | Wide organizational | Low to Medium |
+| **Specialist** | Specific technology domain | Deep expertise | Medium |
+| **Leadership** | Strategic direction, governance | Organization-wide | Variable |
 
-| Aspect | Description |
-|--------|-------------|
-| **Scope** | Project or engagement-focused |
-| **Stakeholders** | Customers, sales teams, delivery teams |
-| **Deliverables** | Solution designs, proposals, PoCs |
-| **Environment** | Consulting firms, vendors, professional services |
-
-**Key Skills**:
-- Pre-sales technical support
-- Requirements gathering and translation
-- Rapid solution design
-- Customer communication
-- Product/service knowledge
-
-**Career Paths**:
-```
-Solutions Architect → Principal SA → Practice Lead → CTO (Services)
-```
+**Important**: Specialist ≠ Lower Level. Categories represent focus area (depth vs breadth), not seniority. A Senior Security Architect (Specialist) may earn more than a Solution Architect (Generalist).
 
 ---
 
-### Enterprise Architect
+## 2.3 All 16 Architect Roles
 
-**Primary Focus**: Organization-wide technology strategy and standards
+### Hands-On Architects
 
-| Aspect | Description |
-|--------|-------------|
-| **Scope** | Entire organization or business unit |
-| **Stakeholders** | C-suite, business leaders, IT leadership |
-| **Deliverables** | Technology roadmaps, standards, governance |
-| **Environment** | Large enterprises, government |
+| Role | Primary Focus | Key Skills | Typical Path |
+|------|---------------|------------|--------------|
+| **Technical Architect** | Implementation guidance, coding with teams | Deep technology expertise, code review | Senior Dev → Tech Arch → Principal |
+| **Application Architect** | App structure, design patterns | Frameworks, patterns, API design | Senior Dev → App Arch → Principal |
+| **Software Architect** | Code quality, maintainability | Software design, technical debt mgmt | Senior Dev → Software Arch → Principal |
 
-**Key Skills**:
-- Business-IT alignment
-- TOGAF and enterprise frameworks
-- Technology portfolio management
-- Governance and compliance
-- Long-term strategic planning
+### Generalist Architects
 
-**Frameworks Used**:
-- TOGAF
-- Zachman Framework
-- FEAF (Federal Enterprise Architecture)
-- ArchiMate
+| Role | Primary Focus | Key Skills | Typical Path |
+|------|---------------|------------|--------------|
+| **Solution Architect** | End-to-end solutions, client-facing | Requirements translation, pre-sales | Tech Lead → Solution Arch → Principal SA |
+| **Domain Architect** | Business domain expertise | Domain knowledge, domain modeling | Domain Expert → Domain Arch → Enterprise |
+| **Enterprise Architect** | Org-wide strategy, standards | TOGAF, governance, business-IT alignment | Solution Arch → Enterprise Arch → Chief |
 
----
+### Specialist Architects
 
-### Cloud Architect
+| Role | Primary Focus | Key Skills | Typical Path |
+|------|---------------|------------|--------------|
+| **Cloud Architect** | Cloud platforms, migration | AWS/Azure/GCP, IaC, FinOps | Cloud Engineer → Cloud Arch → Principal |
+| **Data Architect** | Data models, pipelines | Data modeling, warehousing, governance | Data Engineer → Data Arch → Chief Data |
+| **Security Architect** | Security controls, compliance | Threat modeling, IAM, frameworks | Security Eng → Security Arch → CISO |
+| **Infrastructure Architect** | Servers, storage, virtualization | Hardware, capacity planning | Infra Engineer → Infra Arch → Principal |
+| **Network Architect** | Network topology, connectivity | Routing, protocols, network security | Network Eng → Network Arch → Principal |
+| **Integration Architect** | APIs, system interconnections | ESB, messaging, integration patterns | Integration Dev → Integration Arch → Enterprise |
+| **Platform Architect** | Developer platforms, CI/CD | DevEx, tooling, Kubernetes | Platform Eng → Platform Arch → Principal |
+| **Systems Architect** | Multi-component systems | Hardware + software integration | Systems Eng → Systems Arch → Principal |
 
-**Primary Focus**: Cloud platform design, migration, and optimization
+### Leadership Architects
 
-| Aspect | Description |
-|--------|-------------|
-| **Scope** | Cloud infrastructure and services |
-| **Stakeholders** | Development teams, operations, finance |
-| **Deliverables** | Cloud architectures, migration plans, cost optimization |
-| **Environment** | Any organization using cloud services |
-
-**Key Skills**:
-- Deep expertise in AWS, Azure, and/or GCP
-- Infrastructure as Code (Terraform, CloudFormation)
-- Container orchestration (Kubernetes)
-- Cost management and FinOps
-- Cloud security best practices
-
-**Sub-specializations**:
-```
-┌─────────────────────────────────────────────────────────────┐
-│              Cloud Architect Sub-specializations             │
-│                                                              │
-│  Cloud Infrastructure    │  Focuses on compute, networking, │
-│  Architect               │  storage, IaC                    │
-│  ────────────────────────┼──────────────────────────────    │
-│  Cloud Native            │  Containers, Kubernetes,         │
-│  Architect               │  serverless, microservices       │
-│  ────────────────────────┼──────────────────────────────    │
-│  Cloud Migration         │  Assessment, planning,           │
-│  Architect               │  execution of migrations         │
-│  ────────────────────────┼──────────────────────────────    │
-│  FinOps/Cloud            │  Cost optimization,              │
-│  Economics               │  resource management             │
-└─────────────────────────────────────────────────────────────┘
-```
+| Role | Primary Focus | Key Skills | Typical Path |
+|------|---------------|------------|--------------|
+| **Principal/Staff Architect** | Technical leadership, mentoring | Cross-team influence, strategy | Senior Arch → Principal → Distinguished |
+| **Chief Architect** | Executive vision, governance | C-suite communication, strategy | Principal/Enterprise → Chief → CTO |
 
 ---
 
-### Security Architect
-
-**Primary Focus**: Security design and risk management
-
-| Aspect | Description |
-|--------|-------------|
-| **Scope** | Security across systems and organization |
-| **Stakeholders** | CISO, compliance, development, operations |
-| **Deliverables** | Security architectures, threat models, policies |
-| **Environment** | All industries, especially regulated |
-
-**Key Skills**:
-- Security frameworks (NIST, ISO 27001)
-- Threat modeling and risk assessment
-- Identity and access management
-- Application and network security
-- Compliance and audit
-
-**Career Paths**:
-```
-Security Architect → Principal Security Architect → CISO
-```
-
----
-
-### Data Architect
-
-**Primary Focus**: Data strategy, modeling, and platform design
-
-| Aspect | Description |
-|--------|-------------|
-| **Scope** | Data across the organization |
-| **Stakeholders** | Data teams, analytics, business intelligence |
-| **Deliverables** | Data models, platform architectures, governance |
-| **Environment** | Data-intensive organizations |
-
-**Key Skills**:
-- Data modeling (conceptual, logical, physical)
-- Data warehousing and data lakes
-- ETL/ELT pipeline design
-- Analytics and BI platforms
-- Data governance and quality
-
-**Emerging Focus Areas**:
-- ML/AI platform architecture
-- Real-time analytics
-- Data mesh and data fabric
-- Privacy and data protection
-
----
-
-### Application Architect
-
-**Primary Focus**: Application design and development standards
-
-| Aspect | Description |
-|--------|-------------|
-| **Scope** | Application layer and development practices |
-| **Stakeholders** | Development teams, product managers |
-| **Deliverables** | Application designs, patterns, frameworks |
-| **Environment** | Product companies, custom development |
-
-**Key Skills**:
-- Design patterns and architecture styles
-- API design and integration
-- Framework selection and customization
-- Performance optimization
-- Development best practices
-
----
-
-## 2.3 Choosing Your Specialization
+## 2.4 Choosing Your Specialization
 
 ### Decision Framework
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│           Specialization Selection Matrix                    │
-│                                                              │
-│  Factor              │ Questions to Ask                     │
-│  ────────────────────┼──────────────────────────────────    │
-│  Current Skills      │ What am I already good at?           │
-│                      │ What comes naturally to me?          │
-│  ────────────────────┼──────────────────────────────────    │
-│  Interest            │ What problems excite me?             │
-│                      │ What do I learn about for fun?       │
-│  ────────────────────┼──────────────────────────────────    │
-│  Market Demand       │ What's in demand in my region?       │
-│                      │ What pays well?                      │
-│  ────────────────────┼──────────────────────────────────    │
-│  Company Context     │ What does my company need?           │
-│                      │ Where are the opportunities?         │
-│  ────────────────────┼──────────────────────────────────    │
-│  Future Trends       │ What's growing in importance?        │
-│                      │ What's becoming obsolete?            │
-└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│           Specialization Selection Matrix                        │
+│                                                                  │
+│  Question                    │ Implications                     │
+│  ────────────────────────────┼────────────────────────────────  │
+│  Do you love coding?         │ Yes → Hands-On roles             │
+│                              │ No  → Generalist/Leadership      │
+│  ────────────────────────────┼────────────────────────────────  │
+│  Prefer depth or breadth?    │ Depth → Specialist roles         │
+│                              │ Breadth → Generalist roles       │
+│  ────────────────────────────┼────────────────────────────────  │
+│  Want to lead people?        │ Yes → Leadership roles           │
+│                              │ No  → IC (any category)          │
+│  ────────────────────────────┼────────────────────────────────  │
+│  Client-facing preference?   │ Yes → Solution Architect         │
+│                              │ No  → Technical/Specialist       │
+│  ────────────────────────────┼────────────────────────────────  │
+│  Specific domain passion?    │ Yes → Specialist in that area    │
+│                              │ Varies → Generalist roles        │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-### Specialization Overlaps
+### Market Demand by Specialization (2024-2026)
 
-| Specialization | Common Overlaps |
-|----------------|-----------------|
-| Solutions Architect | Cloud, Application, Enterprise |
-| Enterprise Architect | Solutions, Data, Security |
-| Cloud Architect | Security, Data, Application |
+| Specialization | Demand | Salary Premium | Growth Trend |
+|----------------|--------|----------------|--------------|
+| Cloud Architect | Very High | +15-20% | ↑ Strong |
+| Security Architect | Very High | +20-25% | ↑ Very Strong |
+| Data Architect | High | +10-15% | ↑ Strong |
+| Platform Architect | High | +10-15% | ↑ Growing |
+| Solution Architect | High | Baseline | → Stable |
+| Enterprise Architect | Medium | +5-10% | → Stable |
+| Application Architect | Medium | Baseline | → Stable |
+| Infrastructure Architect | Medium | -5% | ↓ Cloud shift |
+
+---
+
+## 2.5 Transitioning Between Specializations
+
+### Common Transition Paths
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│              Common Specialization Transitions                   │
+│                                                                  │
+│  Application Architect ──────► Solution Architect               │
+│         │                              │                         │
+│         ▼                              ▼                         │
+│  Software Architect           Enterprise Architect               │
+│         │                              │                         │
+│         └──────────► Principal/Staff ◄─┘                        │
+│                              │                                   │
+│                              ▼                                   │
+│                       Chief Architect                            │
+│                                                                  │
+│  ────────────────────────────────────────────────────────────   │
+│                                                                  │
+│  Technical Architect ──────► Platform Architect                 │
+│         │                              │                         │
+│         ▼                              ▼                         │
+│  Cloud Architect ◄───────── Infrastructure Architect            │
+│         │                                                        │
+│         ▼                                                        │
+│  Security Architect (with additional security focus)            │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Transition Requirements
+
+| From | To | Key Requirements |
+|------|-----|------------------|
+| Any Technical → **Solution** | Business communication, client-facing skills |
+| Any → **Enterprise** | TOGAF, governance experience, strategic thinking |
+| Any → **Security** | Security certifications (CISSP), compliance knowledge |
+| Any → **Cloud** | Cloud certifications, hands-on cloud experience |
+| Any → **Principal** | Cross-team influence, mentorship, 10+ years experience |
+
+---
+
+## 2.6 Specialization Overlaps
+
+Many architects work across multiple specializations:
+
+| Primary Role | Common Overlaps |
+|--------------|-----------------|
+| Solution Architect | Cloud, Application, Enterprise |
+| Enterprise Architect | Solution, Domain, Security |
+| Cloud Architect | Security, Infrastructure, Platform |
 | Security Architect | Cloud, Enterprise, Application |
-| Data Architect | Cloud, Application, Enterprise |
-| Application Architect | Cloud, Data, Solutions |
+| Data Architect | Cloud, Application, Integration |
+| Platform Architect | Cloud, Infrastructure, DevOps |
+
+---
+
+## 2.7 Building Your Specialization Path
+
+### 1. Assess Current Position
+- Which category are you closest to now?
+- What skills do you already have?
+
+### 2. Choose Target Specialization
+- Based on interest, market demand, and company needs
+- Consider both short-term and long-term goals
+
+### 3. Gap Analysis
+- What skills/certifications are missing?
+- What experience do you need?
+
+### 4. Create Learning Plan
+- Certifications to pursue
+- Projects to seek out
+- Skills to develop
+
+### 5. Gain Experience
+- Volunteer for relevant projects
+- Seek mentorship from target role practitioners
+- Build portfolio demonstrating target skills
 
 ---
 
 ## Diagrams in This Section
 
 - [2.1-specializations.drawio](./2.1-specializations.drawio)
+
+---
+
+## Further Reading
+
+- [Lesson 12: Architect Roles & Positions](../../lesson-12-architect-roles-positions/README.md) - Detailed breakdown of all 16 architect roles
+- [Lesson 00: Organizational Positioning](../../lesson-00-software-architect-overview/02-organizational-positioning/README.md) - Where architects fit in organizations
