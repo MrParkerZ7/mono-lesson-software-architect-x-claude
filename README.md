@@ -10,29 +10,31 @@ Software Architects serve as the technical visionaries who define the blueprint 
 
 ## Lesson Diagrams
 
-| # | Lesson | Diagrams |
-|---|--------|----------|
-| 00 | Software Architect Overview | ✅ |
-| 01 | Software Design & Architecture | ✅ |
-| 02 | Event-Driven Architecture | ✅ |
-| 03 | Cloud Platforms & Services | ✅ |
-| 04 | Identity & Access Management | ✅ |
-| 05 | DevOps & Platform Engineering | ✅ |
-| 06 | Security | ✅ |
-| 07 | Networking | ✅ |
-| 08 | Databases & Storage | ✅ |
-| 09 | Observability & Monitoring | ✅ |
-| 10 | Soft Skills | ✅ |
-| 11 | Career Path | ✅ |
-| 12 | Architect Roles & Positions | ⬜ (No diagrams - text-based lesson) |
+| # | Lesson | Overview | Sub-lesson Diagrams |
+|---|--------|----------|---------------------|
+| 00 | Software Architect Overview | [0.0-overview](./lesson-00-software-architect-overview/0.0-software-architect-overview.drawio) | ✅ 14 diagrams |
+| 01 | Software Design & Architecture | [1.0-overview](./lesson-01-software-design-architecture/1.0-software-design-architecture-overview.drawio) | ✅ 27 diagrams |
+| 02 | Event-Driven Architecture | [2.0-overview](./lesson-02-event-driven-architecture/2.0-event-driven-architecture-overview.drawio) | ✅ 22 diagrams |
+| 03 | Cloud Platforms & Services | [3.0-overview](./lesson-03-cloud-platforms-services/3.0-cloud-platforms-services-overview.drawio) | ✅ 19 diagrams |
+| 04 | Identity & Access Management | [4.0-overview](./lesson-04-identity-access-management/4.0-identity-access-management-overview.drawio) | ✅ 11 diagrams |
+| 05 | DevOps & Platform Engineering | [5.0-overview](./lesson-05-devops-platform-engineering/5.0-devops-platform-engineering-overview.drawio) | ✅ 19 diagrams |
+| 06 | Security | [6.0-overview](./lesson-06-security/6.0-security-overview.drawio) | ✅ 11 diagrams |
+| 07 | Networking | [7.0-overview](./lesson-07-networking/7.0-networking-overview.drawio) | ✅ 10 diagrams |
+| 08 | Databases & Storage | [8.0-overview](./lesson-08-databases-storage/8.0-databases-storage-overview.drawio) | ✅ 7 diagrams |
+| 09 | Observability & Monitoring | [9.0-overview](./lesson-09-observability-monitoring/9.0-observability-monitoring-overview.drawio) | ✅ 6 diagrams |
+| 10 | Soft Skills | [10.0-overview](./lesson-10-soft-skills/10.0-soft-skills-overview.drawio) | ✅ 6 diagrams |
+| 11 | Career Path | [11.0-overview](./lesson-11-career-path/11.0-career-path-overview.drawio) | ✅ 7 diagrams |
+| 12 | Architect Roles & Positions | [12.0-overview](./lesson-12-architect-roles-positions/12.0-architect-roles-overview.drawio) | ✅ 16 diagrams |
 
-**Diagrams: 12/13 lessons completed**
+**Diagrams: 13/13 lessons completed | 13 Overview Diagrams | 175 Sub-lesson Diagrams**
 
 ---
 
 ## 📁 Complete File Structure
 
 ### Lesson 00 - Software Architect Overview
+**Overview:** [0.0-software-architect-overview.drawio](./lesson-00-software-architect-overview/0.0-software-architect-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - How a Software Architect Works | [README](./lesson-00-software-architect-overview/01-how-a-software-architect-works/README.md) | [1.1 Core Responsibilities](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.1-core-responsibilities.drawio) / [png](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.1-core-responsibilities.png)<br>[1.2 Daily Activities Time](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.2-daily-activities-time.drawio) / [png](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.2-daily-activities-time.png)<br>[1.3 Key Deliverables](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.3-key-deliverables.drawio) / [png](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.3-key-deliverables.png)<br>[1.4 Decision Making Process](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.4-decision-making-process.drawio) / [png](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.4-decision-making-process.png)<br>[1.5 Stakeholder Interactions](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.5-stakeholder-interactions.drawio) / [png](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.5-stakeholder-interactions.png)<br>[1.6 SDLC Involvement](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.6-sdlc-involvement.drawio) / [png](./lesson-00-software-architect-overview/01-how-a-software-architect-works/1.6-sdlc-involvement.png) |
@@ -41,6 +43,8 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 04 - Success Metrics | [README](./lesson-00-software-architect-overview/04-success-metrics/README.md) | [4.1 Success Metrics KPIs](./lesson-00-software-architect-overview/04-success-metrics/4.1-success-metrics-kpis.drawio) / [png](./lesson-00-software-architect-overview/04-success-metrics/4.1-success-metrics-kpis.png) |
 
 ### Lesson 01 - Software Design & Architecture
+**Overview:** [1.0-software-design-architecture-overview.drawio](./lesson-01-software-design-architecture/1.0-software-design-architecture-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - Design Patterns | [README](./lesson-01-software-design-architecture/01-design-patterns/README.md) | [1.1 Creational Patterns Overview](./lesson-01-software-design-architecture/01-design-patterns/1.1-creational-patterns-overview.drawio) / [png](./lesson-01-software-design-architecture/01-design-patterns/1.1-creational-patterns-overview.png)<br>[1.2 Structural Patterns Overview](./lesson-01-software-design-architecture/01-design-patterns/1.2-structural-patterns-overview.drawio) / [png](./lesson-01-software-design-architecture/01-design-patterns/1.2-structural-patterns-overview.png)<br>[1.3 Behavioral Patterns Overview](./lesson-01-software-design-architecture/01-design-patterns/1.3-behavioral-patterns-overview.drawio) / [png](./lesson-01-software-design-architecture/01-design-patterns/1.3-behavioral-patterns-overview.png)<br>[1.4 Enterprise Patterns Layers](./lesson-01-software-design-architecture/01-design-patterns/1.4-enterprise-patterns-layers.drawio) / [png](./lesson-01-software-design-architecture/01-design-patterns/1.4-enterprise-patterns-layers.png)<br>[1.5 DDD Bounded Context](./lesson-01-software-design-architecture/01-design-patterns/1.5-ddd-bounded-context.drawio) / [png](./lesson-01-software-design-architecture/01-design-patterns/1.5-ddd-bounded-context.png)<br>[1.5.1 DDD Tactical Overview](./lesson-01-software-design-architecture/01-design-patterns/1.5.1-ddd-tactical-overview.drawio) / [png](./lesson-01-software-design-architecture/01-design-patterns/1.5.1-ddd-tactical-overview.png)<br>[1.5.2 DDD Entity vs Value Object](./lesson-01-software-design-architecture/01-design-patterns/1.5.2-ddd-entity-vs-value-object.drawio) / [png](./lesson-01-software-design-architecture/01-design-patterns/1.5.2-ddd-entity-vs-value-object.png)<br>[1.5.3 DDD Aggregate Design](./lesson-01-software-design-architecture/01-design-patterns/1.5.3-ddd-aggregate-design.drawio) / [png](./lesson-01-software-design-architecture/01-design-patterns/1.5.3-ddd-aggregate-design.png)<br>[1.5.4 DDD Domain Events](./lesson-01-software-design-architecture/01-design-patterns/1.5.4-ddd-domain-events.drawio) / [png](./lesson-01-software-design-architecture/01-design-patterns/1.5.4-ddd-domain-events.png)<br>[1.5.5 DDD Repository Service](./lesson-01-software-design-architecture/01-design-patterns/1.5.5-ddd-repository-service.drawio) / [png](./lesson-01-software-design-architecture/01-design-patterns/1.5.5-ddd-repository-service.png)<br>[1.6 DDD Context Mapping](./lesson-01-software-design-architecture/01-design-patterns/1.6-ddd-context-mapping.drawio) / [png](./lesson-01-software-design-architecture/01-design-patterns/1.6-ddd-context-mapping.png) |
@@ -50,6 +54,8 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 05 - Data Architecture | [README](./lesson-01-software-design-architecture/05-data-architecture/README.md) | [5.1 Data Modeling Levels](./lesson-01-software-design-architecture/05-data-architecture/5.1-data-modeling-levels.drawio) / [png](./lesson-01-software-design-architecture/05-data-architecture/5.1-data-modeling-levels.png)<br>[5.2 ETL vs ELT](./lesson-01-software-design-architecture/05-data-architecture/5.2-etl-vs-elt.drawio) / [png](./lesson-01-software-design-architecture/05-data-architecture/5.2-etl-vs-elt.png)<br>[5.3 Data Warehouse vs Lake](./lesson-01-software-design-architecture/05-data-architecture/5.3-data-warehouse-vs-lake.drawio) / [png](./lesson-01-software-design-architecture/05-data-architecture/5.3-data-warehouse-vs-lake.png) |
 
 ### Lesson 02 - Event-Driven Architecture
+**Overview:** [2.0-event-driven-architecture-overview.drawio](./lesson-02-event-driven-architecture/2.0-event-driven-architecture-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - Core Concepts | [README](./lesson-02-event-driven-architecture/01-core-concepts/README.md) | [1.1 EDA Overview](./lesson-02-event-driven-architecture/01-core-concepts/1.1-eda-overview.drawio) / [png](./lesson-02-event-driven-architecture/01-core-concepts/1.1-eda-overview.png)<br>[1.2 Event Types Structure](./lesson-02-event-driven-architecture/01-core-concepts/1.2-event-types-structure.drawio) / [png](./lesson-02-event-driven-architecture/01-core-concepts/1.2-event-types-structure.png) |
@@ -60,6 +66,8 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 06 - Best Practices | [README](./lesson-02-event-driven-architecture/06-best-practices/README.md) | [6.1 Error Handling DLQ](./lesson-02-event-driven-architecture/06-best-practices/6.1-error-handling-dlq.drawio) / [png](./lesson-02-event-driven-architecture/06-best-practices/6.1-error-handling-dlq.png)<br>[6.2 EDA Best Practices](./lesson-02-event-driven-architecture/06-best-practices/6.2-eda-best-practices.drawio) / [png](./lesson-02-event-driven-architecture/06-best-practices/6.2-eda-best-practices.png) |
 
 ### Lesson 03 - Cloud Platforms & Services
+**Overview:** [3.0-cloud-platforms-services-overview.drawio](./lesson-03-cloud-platforms-services/3.0-cloud-platforms-services-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - Cloud Computing Fundamentals | [README](./lesson-03-cloud-platforms-services/01-cloud-computing-fundamentals/README.md) | [1.1 Service Models IaaS PaaS SaaS](./lesson-03-cloud-platforms-services/01-cloud-computing-fundamentals/1.1-service-models-iaas-paas-saas.drawio) / [png](./lesson-03-cloud-platforms-services/01-cloud-computing-fundamentals/1.1-service-models-iaas-paas-saas.png)<br>[1.2 Deployment Models](./lesson-03-cloud-platforms-services/01-cloud-computing-fundamentals/1.2-deployment-models.drawio) / [png](./lesson-03-cloud-platforms-services/01-cloud-computing-fundamentals/1.2-deployment-models.png) |
@@ -72,6 +80,8 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 08 - Cost Optimization Well-Architected | [README](./lesson-03-cloud-platforms-services/08-cost-optimization-well-architected/README.md) | [8.1 Cost Optimization Strategies](./lesson-03-cloud-platforms-services/08-cost-optimization-well-architected/8.1-cost-optimization-strategies.drawio) / [png](./lesson-03-cloud-platforms-services/08-cost-optimization-well-architected/8.1-cost-optimization-strategies.png)<br>[8.2 Well-Architected Framework](./lesson-03-cloud-platforms-services/08-cost-optimization-well-architected/8.2-well-architected-framework.drawio) / [png](./lesson-03-cloud-platforms-services/08-cost-optimization-well-architected/8.2-well-architected-framework.png) |
 
 ### Lesson 04 - Identity & Access Management
+**Overview:** [4.0-identity-access-management-overview.drawio](./lesson-04-identity-access-management/4.0-identity-access-management-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - Core Concepts | [README](./lesson-04-identity-access-management/01-core-concepts/README.md) | [1.1 AuthN vs AuthZ](./lesson-04-identity-access-management/01-core-concepts/1.1-authn-vs-authz.drawio) / [png](./lesson-04-identity-access-management/01-core-concepts/1.1-authn-vs-authz.png)<br>[1.2 Identity Terminology](./lesson-04-identity-access-management/01-core-concepts/1.2-identity-terminology.drawio) / [png](./lesson-04-identity-access-management/01-core-concepts/1.2-identity-terminology.png) |
@@ -83,6 +93,8 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 07 - Best Practices | [README](./lesson-04-identity-access-management/07-best-practices/README.md) | [7.1 IAM Best Practices](./lesson-04-identity-access-management/07-best-practices/7.1-iam-best-practices.drawio) / [png](./lesson-04-identity-access-management/07-best-practices/7.1-iam-best-practices.png) |
 
 ### Lesson 05 - DevOps & Platform Engineering
+**Overview:** [5.0-devops-platform-engineering-overview.drawio](./lesson-05-devops-platform-engineering/5.0-devops-platform-engineering-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - DevOps Fundamentals | [README](./lesson-05-devops-platform-engineering/01-devops-fundamentals/README.md) | [1.1 DevOps Lifecycle](./lesson-05-devops-platform-engineering/01-devops-fundamentals/1.1-devops-lifecycle.drawio) / [png](./lesson-05-devops-platform-engineering/01-devops-fundamentals/1.1-devops-lifecycle.png)<br>[1.2 DevOps Principles](./lesson-05-devops-platform-engineering/01-devops-fundamentals/1.2-devops-principles.drawio) / [png](./lesson-05-devops-platform-engineering/01-devops-fundamentals/1.2-devops-principles.png)<br>[1.3 DORA Metrics](./lesson-05-devops-platform-engineering/01-devops-fundamentals/1.3-dora-metrics.drawio) / [png](./lesson-05-devops-platform-engineering/01-devops-fundamentals/1.3-dora-metrics.png) |
@@ -95,6 +107,8 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 08 - Platform Engineering | [README](./lesson-05-devops-platform-engineering/08-platform-engineering/README.md) | [8.1 Internal Developer Platform](./lesson-05-devops-platform-engineering/08-platform-engineering/8.1-internal-developer-platform.drawio) / [png](./lesson-05-devops-platform-engineering/08-platform-engineering/8.1-internal-developer-platform.png)<br>[8.2 Platform Engineering Tools](./lesson-05-devops-platform-engineering/08-platform-engineering/8.2-platform-engineering-tools.drawio) / [png](./lesson-05-devops-platform-engineering/08-platform-engineering/8.2-platform-engineering-tools.png) |
 
 ### Lesson 06 - Security
+**Overview:** [6.0-security-overview.drawio](./lesson-06-security/6.0-security-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - Application Security | [README](./lesson-06-security/01-application-security/README.md) | [1.1 OWASP Top 10](./lesson-06-security/01-application-security/1.1-owasp-top-10.drawio) / [png](./lesson-06-security/01-application-security/1.1-owasp-top-10.png)<br>[1.2 STRIDE Threat Model](./lesson-06-security/01-application-security/1.2-stride-threat-model.drawio) / [png](./lesson-06-security/01-application-security/1.2-stride-threat-model.png) |
@@ -105,6 +119,8 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 06 - Compliance Governance | [README](./lesson-06-security/06-compliance-governance/README.md) | [6.1 Regulatory Frameworks](./lesson-06-security/06-compliance-governance/6.1-regulatory-frameworks.drawio) / [png](./lesson-06-security/06-compliance-governance/6.1-regulatory-frameworks.png)<br>[6.2 Data Classification](./lesson-06-security/06-compliance-governance/6.2-data-classification.drawio) / [png](./lesson-06-security/06-compliance-governance/6.2-data-classification.png)<br>[6.3 Incident Response](./lesson-06-security/06-compliance-governance/6.3-incident-response.drawio) / [png](./lesson-06-security/06-compliance-governance/6.3-incident-response.png) |
 
 ### Lesson 07 - Networking
+**Overview:** [7.0-networking-overview.drawio](./lesson-07-networking/7.0-networking-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - Networking Fundamentals | [README](./lesson-07-networking/01-networking-fundamentals/README.md) | [1.1 OSI Model](./lesson-07-networking/01-networking-fundamentals/1.1-osi-model.drawio) / [png](./lesson-07-networking/01-networking-fundamentals/1.1-osi-model.png)<br>[1.2 TCP UDP Comparison](./lesson-07-networking/01-networking-fundamentals/1.2-tcp-udp-comparison.drawio) / [png](./lesson-07-networking/01-networking-fundamentals/1.2-tcp-udp-comparison.png)<br>[1.3 DNS Resolution](./lesson-07-networking/01-networking-fundamentals/1.3-dns-resolution.drawio) / [png](./lesson-07-networking/01-networking-fundamentals/1.3-dns-resolution.png)<br>[1.4 HTTP Overview](./lesson-07-networking/01-networking-fundamentals/1.4-http-overview.drawio) / [png](./lesson-07-networking/01-networking-fundamentals/1.4-http-overview.png) |
@@ -114,6 +130,8 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 05 - API Gateway | [README](./lesson-07-networking/05-api-gateway/README.md) | [5.1 API Gateway](./lesson-07-networking/05-api-gateway/5.1-api-gateway.drawio) / [png](./lesson-07-networking/05-api-gateway/5.1-api-gateway.png) |
 
 ### Lesson 08 - Databases & Storage
+**Overview:** [8.0-databases-storage-overview.drawio](./lesson-08-databases-storage/8.0-databases-storage-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - Database Types Overview | [README](./lesson-08-databases-storage/01-database-types-overview/README.md) | [1.1 Database Landscape](./lesson-08-databases-storage/01-database-types-overview/1.1-database-landscape.drawio) / [png](./lesson-08-databases-storage/01-database-types-overview/1.1-database-landscape.png) |
@@ -125,6 +143,8 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 07 - Database Selection Guide | [README](./lesson-08-databases-storage/07-database-selection-guide/README.md) | [7.1 Database Selection](./lesson-08-databases-storage/07-database-selection-guide/7.1-database-selection.drawio) / [png](./lesson-08-databases-storage/07-database-selection-guide/7.1-database-selection.png) |
 
 ### Lesson 09 - Observability & Monitoring
+**Overview:** [9.0-observability-monitoring-overview.drawio](./lesson-09-observability-monitoring/9.0-observability-monitoring-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - Three Pillars of Observability | [README](./lesson-09-observability-monitoring/01-three-pillars-of-observability/README.md) | [1.1 Three Pillars](./lesson-09-observability-monitoring/01-three-pillars-of-observability/1.1-three-pillars.drawio) / [png](./lesson-09-observability-monitoring/01-three-pillars-of-observability/1.1-three-pillars.png) |
@@ -135,6 +155,8 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 06 - Observability Architecture | [README](./lesson-09-observability-monitoring/06-observability-architecture/README.md) | [6.1 Observability Architecture](./lesson-09-observability-monitoring/06-observability-architecture/6.1-observability-architecture.drawio) / [png](./lesson-09-observability-monitoring/06-observability-architecture/6.1-observability-architecture.png) |
 
 ### Lesson 10 - Soft Skills
+**Overview:** [10.0-soft-skills-overview.drawio](./lesson-10-soft-skills/10.0-soft-skills-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - Communication | [README](./lesson-10-soft-skills/01-communication/README.md) | [1.1 Communication Skills](./lesson-10-soft-skills/01-communication/1.1-communication-skills.drawio) / [png](./lesson-10-soft-skills/01-communication/1.1-communication-skills.png) |
@@ -146,6 +168,8 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 07 - Work-Life Balance | [README](./lesson-10-soft-skills/07-work-life-balance/README.md) | No diagrams |
 
 ### Lesson 11 - Career Path
+**Overview:** [11.0-career-path-overview.drawio](./lesson-11-career-path/11.0-career-path-overview.drawio)
+
 | Sub-lesson | README | Diagrams |
 |------------|--------|----------|
 | 01 - Career Progression Stages | [README](./lesson-11-career-path/01-career-progression-stages/README.md) | [1.1 Career Ladder](./lesson-11-career-path/01-career-progression-stages/1.1-career-ladder.drawio) / [png](./lesson-11-career-path/01-career-progression-stages/1.1-career-ladder.png) |
@@ -157,6 +181,7 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 07 - Continuous Learning Strategy | [README](./lesson-11-career-path/07-continuous-learning-strategy/README.md) | [7.1 Learning Strategy](./lesson-11-career-path/07-continuous-learning-strategy/7.1-learning-strategy.drawio) / [png](./lesson-11-career-path/07-continuous-learning-strategy/7.1-learning-strategy.png) |
 
 ### Lesson 12 - Architect Roles & Positions
+**Overview:** [12.0-architect-roles-overview.drawio](./lesson-12-architect-roles-positions/12.0-architect-roles-overview.drawio)
 
 #### Hands-On Architects (Code-Level Implementation)
 | Sub-lesson | README | Description |
@@ -190,7 +215,7 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 15 - Principal/Staff Architect | [README](./lesson-12-architect-roles-positions/15-leadership-principal-staff-architect/README.md) | Senior IC with organization-wide technical influence |
 | 16 - Chief Architect | [README](./lesson-12-architect-roles-positions/16-leadership-chief-architect/README.md) | Executive leadership overseeing all architecture |
 
-**Total:** 92 Sub-Lessons | 159 Diagrams | 159 Images
+**Total:** 92 Sub-Lessons | 13 Overview Diagrams | 175 Sub-lesson Diagrams | 188 Total Diagrams
 
 ---
 
