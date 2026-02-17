@@ -11,11 +11,15 @@ This is an educational curriculum repository for Software Architects. It contain
 ```
 lesson-XX-topic-name/
 ├── README.md                    # Lesson overview, objectives, sub-lesson links
+├── XX.0-lesson-overview.drawio  # Main lesson overview diagram (optional)
 ├── 01-sub-topic/
 │   ├── README.md               # Sub-lesson content
-│   ├── topic.drawio            # DrawIO diagram source
-│   └── topic.png               # PNG export of diagram
+│   ├── XX.1-diagram-name.drawio # DrawIO diagram source (numbered)
+│   └── XX.1-diagram-name.png   # PNG export of diagram
 ├── 02-sub-topic/
+│   ├── README.md
+│   ├── XX.2-diagram-name.drawio
+│   └── XX.2-diagram-name.png
 └── ...
 ```
 
@@ -37,10 +41,22 @@ lesson-XX-topic-name/
 
 ## Working with Diagrams
 
+### Naming Convention
+- Diagrams follow the pattern: `[lesson].[sub-lesson]-descriptive-name.drawio`
+- Examples: `1.1-creational-patterns-overview.drawio`, `12.5-domain-architect.drawio`
+- Lesson overview diagrams use `.0` suffix: `12.0-architect-roles-overview.drawio`
+
+### File Requirements
 - All diagrams use DrawIO format (`.drawio` XML files)
-- Each diagram has a corresponding PNG export for viewing
+- Each diagram must have a corresponding PNG export for viewing
 - When modifying diagrams, update both the `.drawio` source and regenerate the `.png` export
-- Diagrams include visual styling: shadows, curved arrows, flow animations
+
+### Styling Standards
+- Enable shadows on shapes (`shadow=1`)
+- Use curved arrows where appropriate (`curved=1`)
+- Add flow animation to directional arrows (`flowAnimation=1`)
+- Use consistent color schemes within each lesson
+- Include title and descriptive labels in diagrams
 
 ## Content Conventions
 
