@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" version="22.1.0">
+  <diagram name="Networking Overview" id="lesson-07-overview">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="&lt;b&gt;LESSON 07: NETWORKING&lt;/b&gt;&lt;br&gt;Load Balancing, Service Mesh &amp; API Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#1565c0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="600" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Central Network Hub -->
+        <mxCell id="central" value="&lt;b&gt;NETWORK&lt;br&gt;ARCHITECTURE&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1565c0;fontColor=#ffffff;strokeColor=#0d47a1;strokeWidth=3;shadow=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 1: Fundamentals -->
+        <mxCell id="topic1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="topic1-title" value="&lt;b&gt;01 - FUNDAMENTALS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#1976d2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="75" y="130" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="topic1-content" value="• OSI Model Layers&lt;br&gt;• TCP/IP &amp; UDP&lt;br&gt;• DNS Resolution&lt;br&gt;• HTTP/HTTPS&lt;br&gt;• IP Addressing &amp; Subnets" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1565c0;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="165" width="180" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 2: Cloud Networking -->
+        <mxCell id="topic2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1e88e5;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="topic2-title" value="&lt;b&gt;02 - CLOUD NETWORKING&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#1e88e5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="315" y="130" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="topic2-content" value="• VPC / VNet&lt;br&gt;• Subnets &amp; Routes&lt;br&gt;• Security Groups / NSG&lt;br&gt;• VPN &amp; ExpressRoute&lt;br&gt;• Private Endpoints" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1565c0;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="310" y="165" width="180" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 3: Load Balancing -->
+        <mxCell id="topic3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#43a047;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="topic3-title" value="&lt;b&gt;03 - LOAD BALANCING&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#43a047;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="555" y="130" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="topic3-content" value="• L4 vs L7 Load Balancing&lt;br&gt;• Health Checks&lt;br&gt;• Session Affinity&lt;br&gt;• Global Load Balancing&lt;br&gt;• CDN Integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#2e7d32;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="550" y="165" width="180" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 4: Service Mesh -->
+        <mxCell id="topic4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#8e24aa;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="120" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="topic4-title" value="&lt;b&gt;04 - SERVICE MESH&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#8e24aa;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="795" y="130" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="topic4-content" value="• Istio / Linkerd&lt;br&gt;• Sidecar Proxy&lt;br&gt;• Traffic Management&lt;br&gt;• mTLS&lt;br&gt;• Observability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#7b1fa2;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="790" y="165" width="180" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 5: API Gateway -->
+        <mxCell id="topic5-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#f57c00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="520" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="topic5-title" value="&lt;b&gt;05 - API GATEWAY&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#f57c00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="490" y="530" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="topic5-content" value="• Rate Limiting &amp; Throttling • Authentication &amp; Authorization&lt;br&gt;• Request/Response Transformation • Caching • Kong, APIM, AWS API Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#e65100;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="430" y="565" width="260" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1976d2;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="210" as="sourcePoint" />
+            <mxPoint x="480" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1e88e5;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="500" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#43a047;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="280" as="sourcePoint" />
+            <mxPoint x="600" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#8e24aa;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="210" as="sourcePoint" />
+            <mxPoint x="640" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#f57c00;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="520" as="sourcePoint" />
+            <mxPoint x="560" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

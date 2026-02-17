@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" version="22.1.0">
+  <diagram name="Software Design Architecture Overview" id="lesson-01-overview">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="&lt;b&gt;LESSON 01: SOFTWARE DESIGN &amp; ARCHITECTURE&lt;/b&gt;&lt;br&gt;Patterns, Styles, Principles &amp; API Design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#0d47a1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="700" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Central Hub -->
+        <mxCell id="central" value="&lt;b&gt;SOFTWARE&lt;br&gt;ARCHITECTURE&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d47a1;fontColor=#ffffff;strokeColor=#002171;strokeWidth=3;shadow=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="580" y="380" width="140" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 1: Design Patterns -->
+        <mxCell id="topic1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="topic1-title" value="&lt;b&gt;01 - DESIGN PATTERNS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#1565c0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="topic1-content" value="&lt;b&gt;Creational&lt;/b&gt; - Factory, Builder, Singleton&lt;br&gt;&lt;b&gt;Structural&lt;/b&gt; - Adapter, Facade, Proxy&lt;br&gt;&lt;b&gt;Behavioral&lt;/b&gt; - Strategy, Observer&lt;br&gt;&lt;b&gt;Enterprise&lt;/b&gt; - Repository, UoW&lt;br&gt;&lt;b&gt;DDD&lt;/b&gt; - Entities, Aggregates, Events" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1565c0;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="50" y="145" width="220" height="145" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 2: Architecture Styles -->
+        <mxCell id="topic2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ede7f6;strokeColor=#512da8;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="topic2-title" value="&lt;b&gt;02 - ARCHITECTURE STYLES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#512da8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="topic2-content" value="&lt;b&gt;Monolithic&lt;/b&gt; - Traditional unified&lt;br&gt;&lt;b&gt;Microservices&lt;/b&gt; - Distributed services&lt;br&gt;&lt;b&gt;SOA/ESB&lt;/b&gt; - Enterprise integration&lt;br&gt;&lt;b&gt;Serverless&lt;/b&gt; - FaaS, managed&lt;br&gt;&lt;b&gt;Event-Driven&lt;/b&gt; - Async, reactive" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#512da8;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="330" y="145" width="220" height="145" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 3: Architecture Principles -->
+        <mxCell id="topic3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#c2185b;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="100" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="topic3-title" value="&lt;b&gt;03 - ARCHITECTURE PRINCIPLES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#c2185b;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="610" y="110" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="topic3-content" value="&lt;b&gt;SOLID&lt;/b&gt; - 5 OOP principles&lt;br&gt;&lt;b&gt;DRY&lt;/b&gt; - Don't Repeat Yourself&lt;br&gt;&lt;b&gt;KISS&lt;/b&gt; - Keep It Simple&lt;br&gt;&lt;b&gt;YAGNI&lt;/b&gt; - You Aren't Gonna Need It&lt;br&gt;&lt;b&gt;Separation of Concerns&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#c2185b;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="610" y="145" width="220" height="145" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 4: API Design -->
+        <mxCell id="topic4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="100" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="topic4-title" value="&lt;b&gt;04 - API DESIGN&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#2e7d32;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="890" y="110" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="topic4-content" value="&lt;b&gt;REST&lt;/b&gt; - Resource-based, HTTP&lt;br&gt;&lt;b&gt;GraphQL&lt;/b&gt; - Query language&lt;br&gt;&lt;b&gt;gRPC&lt;/b&gt; - Binary, high-perf&lt;br&gt;&lt;b&gt;WebSocket&lt;/b&gt; - Real-time, bidirectional&lt;br&gt;&lt;b&gt;API Gateway&lt;/b&gt; - Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#2e7d32;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="890" y="145" width="220" height="145" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 5: Data Architecture -->
+        <mxCell id="topic5-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="560" width="380" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="topic5-title" value="&lt;b&gt;05 - DATA ARCHITECTURE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#ef6c00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="550" y="570" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="topic5-content" value="&lt;b&gt;Data Modeling&lt;/b&gt; - Conceptual, Logical, Physical&lt;br&gt;&lt;b&gt;ETL vs ELT&lt;/b&gt; - Data transformation approaches&lt;br&gt;&lt;b&gt;Data Warehouse vs Lake&lt;/b&gt; - Storage strategies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#ef6c00;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="470" y="605" width="360" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Connecting Arrows -->
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1565c0;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="250" as="sourcePoint" />
+            <mxPoint x="580" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#512da8;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="300" as="sourcePoint" />
+            <mxPoint x="600" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#c2185b;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="300" as="sourcePoint" />
+            <mxPoint x="680" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#2e7d32;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="250" as="sourcePoint" />
+            <mxPoint x="720" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#ef6c00;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="560" as="sourcePoint" />
+            <mxPoint x="650" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

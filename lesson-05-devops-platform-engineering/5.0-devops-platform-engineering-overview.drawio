@@ -1,0 +1,159 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" version="22.1.0">
+  <diagram name="DevOps Platform Engineering Overview" id="lesson-05-overview">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="&lt;b&gt;LESSON 05: DEVOPS &amp; PLATFORM ENGINEERING&lt;/b&gt;&lt;br&gt;CI/CD, IaC, Containers &amp; GitOps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#00695c;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="700" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Central Infinity Loop -->
+        <mxCell id="central" value="&lt;b&gt;DevOps&lt;br&gt;∞&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00695c;fontColor=#ffffff;strokeColor=#004d40;strokeWidth=3;shadow=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="120" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 1: Fundamentals -->
+        <mxCell id="topic1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00897b;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="topic1-title" value="&lt;b&gt;01 - FUNDAMENTALS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#00897b;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="topic1-content" value="• DevOps Lifecycle&lt;br&gt;• Culture &amp; Principles&lt;br&gt;• DORA Metrics&lt;br&gt;• Collaboration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#00695c;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="140" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 2: CI/CD -->
+        <mxCell id="topic2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b2dfdb;strokeColor=#009688;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="topic2-title" value="&lt;b&gt;02 - CI/CD TOOLS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#009688;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="topic2-content" value="• Azure DevOps&lt;br&gt;• GitHub Actions&lt;br&gt;• Jenkins&lt;br&gt;• Pipeline Design" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#00796b;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="140" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 3: IaC -->
+        <mxCell id="topic3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#80cbc4;strokeColor=#00897b;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="topic3-title" value="&lt;b&gt;03 - INFRASTRUCTURE AS CODE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#00897b;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="410" y="110" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="topic3-content" value="• Terraform&lt;br&gt;• Pulumi, Bicep&lt;br&gt;• State Management&lt;br&gt;• Modules" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#00695c;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="410" y="140" width="140" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 4: Containers -->
+        <mxCell id="topic4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="topic4-title" value="&lt;b&gt;04 - CONTAINERIZATION&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#1976d2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="590" y="110" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="topic4-content" value="• Docker&lt;br&gt;• Image Building&lt;br&gt;• Container Security&lt;br&gt;• Registry" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#1565c0;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="590" y="140" width="140" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 5: K8s -->
+        <mxCell id="topic5-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1e88e5;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="100" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="topic5-title" value="&lt;b&gt;05 - ORCHESTRATION&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#1e88e5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="770" y="110" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="topic5-content" value="• Kubernetes&lt;br&gt;• AKS, EKS, GKE&lt;br&gt;• Helm Charts&lt;br&gt;• Service Mesh" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#1565c0;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="770" y="140" width="140" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 6: GitOps -->
+        <mxCell id="topic6-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ff9800;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="100" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="topic6-title" value="&lt;b&gt;06 - GITOPS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#ff9800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="950" y="110" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="topic6-content" value="• ArgoCD&lt;br&gt;• Flux&lt;br&gt;• Declarative Config&lt;br&gt;• Git as Source" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#e65100;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="950" y="140" width="140" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 7: Artifacts -->
+        <mxCell id="topic7-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="540" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="topic7-title" value="&lt;b&gt;07 - ARTIFACT MANAGEMENT&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#7b1fa2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="395" y="550" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="topic7-content" value="• Container Registry&lt;br&gt;• Package Management&lt;br&gt;• Versioning Strategy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#6a1b9a;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="390" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Topic 8: Platform Engineering -->
+        <mxCell id="topic8-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#43a047;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="540" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="topic8-title" value="&lt;b&gt;08 - PLATFORM ENGINEERING&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#43a047;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="695" y="550" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="topic8-content" value="• Internal Developer Platform&lt;br&gt;• Self-Service&lt;br&gt;• Golden Paths" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#2e7d32;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="690" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#00897b;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="170" as="sourcePoint" />
+            <mxPoint x="560" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#009688;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="240" as="sourcePoint" />
+            <mxPoint x="570" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#00897b;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="240" as="sourcePoint" />
+            <mxPoint x="590" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1976d2;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="240" as="sourcePoint" />
+            <mxPoint x="640" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1e88e5;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="240" as="sourcePoint" />
+            <mxPoint x="670" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr6" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#ff9800;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="240" as="sourcePoint" />
+            <mxPoint x="680" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr7" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#7b1fa2;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="540" as="sourcePoint" />
+            <mxPoint x="580" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr8" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#43a047;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="540" as="sourcePoint" />
+            <mxPoint x="660" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
