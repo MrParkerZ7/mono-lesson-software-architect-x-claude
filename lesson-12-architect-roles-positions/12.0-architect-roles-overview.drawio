@@ -98,7 +98,7 @@
                     <mxGeometry x="1320" y="320" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#adb5bd;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="680" width="600" height="100" as="geometry"/>
+                    <mxGeometry x="40" y="680" width="640" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="legend-title" value="&lt;b&gt;LEGEND&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
                     <mxGeometry x="50" y="690" width="100" height="20" as="geometry"/>
