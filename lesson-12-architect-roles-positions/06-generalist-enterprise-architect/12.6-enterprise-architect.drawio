@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" version="22.1.0">
+  <diagram name="Enterprise Architect" id="ent-arch-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="&lt;b&gt;ENTERPRISE ARCHITECT&lt;/b&gt;&lt;br&gt;Organization-Wide Strategy &amp; Governance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#5a189a;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="600" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Organization Box -->
+        <mxCell id="org-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#5a189a;strokeWidth=3;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="880" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="org-label" value="&lt;b&gt;ENTERPRISE / ORGANIZATION&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#5a189a;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Enterprise Architect at top -->
+        <mxCell id="ea-central" value="&lt;b&gt;ENTERPRISE&lt;br&gt;ARCHITECT&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Strategy • Standards&lt;br&gt;Governance • Roadmap&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9d4edd;fontColor=#ffffff;strokeColor=#5a189a;strokeWidth=3;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="180" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- TOGAF Layers -->
+        <mxCell id="layer1" value="&lt;b&gt;Business Architecture&lt;/b&gt;&lt;br&gt;Strategy, Governance, Capabilities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c77dff;fontColor=#3c096c;strokeColor=#7b2cbf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="800" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2" value="&lt;b&gt;Information/Data Architecture&lt;/b&gt;&lt;br&gt;Data Models, Data Governance, Master Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0aaff;fontColor=#3c096c;strokeColor=#9d4edd;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="800" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3" value="&lt;b&gt;Application Architecture&lt;/b&gt;&lt;br&gt;Application Portfolio, Integration Standards, Rationalization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;fontColor=#5a189a;strokeColor=#c77dff;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="800" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4" value="&lt;b&gt;Technology Architecture&lt;/b&gt;&lt;br&gt;Infrastructure, Cloud, Security, Network" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9d4edd;fontColor=#fff;strokeColor=#5a189a;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="470" width="800" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows from EA to layers -->
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#5a189a;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="260" as="sourcePoint" />
+            <mxPoint x="490" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Key Deliverables on right -->
+        <mxCell id="deliv-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#9d4edd;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="90" width="280" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="deliv-title" value="&lt;b&gt;KEY DELIVERABLES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#5a189a;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="100" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="del1" value="&lt;b&gt;Technology Roadmap&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;3-5 year vision&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9d4edd;fontColor=#fff;strokeColor=#5a189a;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="135" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="del2" value="&lt;b&gt;Standards &amp; Policies&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Org-wide guidelines&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c77dff;fontColor=#3c096c;strokeColor=#7b2cbf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="135" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="del3" value="&lt;b&gt;Reference Arch&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Patterns &amp; blueprints&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0aaff;fontColor=#3c096c;strokeColor=#9d4edd;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="del4" value="&lt;b&gt;Tech Radar&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Adopt/Trial/Hold&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;fontColor=#5a189a;strokeColor=#c77dff;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="del5" value="&lt;b&gt;App Portfolio&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Inventory &amp; lifecycle&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9d4edd;fontColor=#fff;strokeColor=#5a189a;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="265" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="del6" value="&lt;b&gt;Governance Board&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Review &amp; approval&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c77dff;fontColor=#3c096c;strokeColor=#7b2cbf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="265" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="del7" value="&lt;b&gt;Capability Maps&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Business capabilities&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0aaff;fontColor=#3c096c;strokeColor=#9d4edd;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="330" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Frameworks -->
+        <mxCell id="fw-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#ffc107;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="440" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fw-title" value="&lt;b&gt;FRAMEWORKS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#664d03;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="450" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fw1" value="TOGAF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc107;fontColor=#664d03;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="480" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fw2" value="Zachman" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc107;fontColor=#664d03;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="480" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fw3" value="FEAF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc107;fontColor=#664d03;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="480" width="70" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Reports to -->
+        <mxCell id="reports-label" value="&lt;b&gt;Reports to: CTO / CIO&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e0aaff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#5a189a;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="560" width="170" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Key Characteristics -->
+        <mxCell id="char-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#4caf50;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="560" width="880" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="char1" value="&lt;b&gt;Scope:&lt;/b&gt; Entire Organization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="80" y="570" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="char2" value="&lt;b&gt;Time Horizon:&lt;/b&gt; 3-5 Years" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="250" y="570" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="char3" value="&lt;b&gt;Coding Time:&lt;/b&gt; 0-10%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="420" y="570" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="char4" value="&lt;b&gt;Business Interaction:&lt;/b&gt; Very High" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="590" y="570" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="char5" value="&lt;b&gt;Primary Metric:&lt;/b&gt; Strategic Alignment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="780" y="570" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="char6" value="&lt;i&gt;Enterprise Architect defines the &quot;big picture&quot; - ensuring all technology decisions align with business strategy and long-term vision.&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="180" y="600" width="640" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

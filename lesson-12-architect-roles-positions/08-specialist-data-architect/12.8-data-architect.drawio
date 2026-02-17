@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" version="22.1.0">
+  <diagram name="Data Architect" id="data-arch-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="&lt;b&gt;DATA ARCHITECT&lt;/b&gt;&lt;br&gt;Data Models, Pipelines &amp; Storage Strategies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#e85d04;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="600" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Data Flow Diagram -->
+        <mxCell id="flow-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e85d04;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="980" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-title" value="&lt;b&gt;DATA ARCHITECTURE OVERVIEW&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#e85d04;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Data Sources -->
+        <mxCell id="sources" value="&lt;b&gt;Data Sources&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Apps, IoT, APIs,&lt;br&gt;Databases, Files&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e85d04;fontColor=#fff;strokeColor=#9d0208;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="120" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Ingestion -->
+        <mxCell id="ingest" value="&lt;b&gt;Ingestion&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Batch &amp; Stream&lt;br&gt;ETL/ELT&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f48c06;fontColor=#fff;strokeColor=#9d0208;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="120" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Data Lake / Warehouse -->
+        <mxCell id="storage" value="&lt;b&gt;Storage Layer&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Data Lake&lt;br&gt;Data Warehouse&lt;br&gt;Lakehouse&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#faa307;fontColor=#1a1a2e;strokeColor=#9d0208;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="145" width="140" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Processing -->
+        <mxCell id="process" value="&lt;b&gt;Processing&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Transformation&lt;br&gt;Aggregation&lt;br&gt;ML Pipelines&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffba08;fontColor=#1a1a2e;strokeColor=#9d0208;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="160" width="120" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Serving -->
+        <mxCell id="serve" value="&lt;b&gt;Serving Layer&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;BI, Reports&lt;br&gt;APIs, Apps&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd8;fontColor=#9d0208;strokeColor=#e85d04;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="160" width="120" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Consumers -->
+        <mxCell id="consumers" value="&lt;b&gt;Consumers&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Analysts, Apps&lt;br&gt;ML Models&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e85d04;fontColor=#fff;strokeColor=#9d0208;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="160" width="80" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Flow Arrows -->
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#e85d04;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="195" as="sourcePoint" />
+            <mxPoint x="260" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#e85d04;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="195" as="sourcePoint" />
+            <mxPoint x="430" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#e85d04;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="195" as="sourcePoint" />
+            <mxPoint x="620" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#e85d04;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="195" as="sourcePoint" />
+            <mxPoint x="790" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#e85d04;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="195" as="sourcePoint" />
+            <mxPoint x="950" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Data Governance Bar -->
+        <mxCell id="governance" value="&lt;b&gt;DATA GOVERNANCE:&lt;/b&gt; Quality | Security | Privacy | Compliance | Lineage | Catalog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9d0208;fontColor=#fff;strokeColor=#6a040f;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="940" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Data Architect Role -->
+        <mxCell id="da-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#e85d04;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="480" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="da-central" value="&lt;b&gt;DATA&lt;br&gt;ARCHITECT&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Design • Model&lt;br&gt;Govern • Integrate&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e85d04;fontColor=#ffffff;strokeColor=#9d0208;strokeWidth=3;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="140" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Responsibilities -->
+        <mxCell id="resp1" value="&lt;b&gt;Data Modeling&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;• Conceptual, logical, physical&lt;br&gt;• Star/snowflake schemas&lt;br&gt;• Document models&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e85d04;fontColor=#fff;strokeColor=#9d0208;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="250" y="415" width="135" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="resp2" value="&lt;b&gt;Pipeline Design&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;• ETL/ELT architecture&lt;br&gt;• Real-time streaming&lt;br&gt;• Data integration&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f48c06;fontColor=#fff;strokeColor=#9d0208;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="395" y="415" width="135" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="resp3" value="&lt;b&gt;Storage Strategy&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;• RDBMS vs NoSQL&lt;br&gt;• Partitioning, sharding&lt;br&gt;• Archive &amp; retention&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#faa307;fontColor=#1a1a2e;strokeColor=#9d0208;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="250" y="500" width="135" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="resp4" value="&lt;b&gt;Data Governance&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;• Quality standards&lt;br&gt;• Master data mgmt&lt;br&gt;• Metadata catalog&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffba08;fontColor=#1a1a2e;strokeColor=#9d0208;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="395" y="500" width="135" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- Technologies -->
+        <mxCell id="tech-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#4caf50;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="400" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-title" value="&lt;b&gt;TECHNOLOGIES &amp; TOOLS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="700" y="410" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="t1" value="&lt;b&gt;Databases&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;PostgreSQL, Oracle&lt;br&gt;MongoDB, Cassandra&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4caf50;fontColor=#fff;fontSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="600" y="445" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" value="&lt;b&gt;Data Platforms&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Snowflake, Databricks&lt;br&gt;BigQuery, Redshift&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66bb6a;fontColor=#fff;fontSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="745" y="445" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" value="&lt;b&gt;Streaming&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Kafka, Spark&lt;br&gt;Flink, Kinesis&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#81c784;fontColor=#1b5e20;fontSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="890" y="445" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t4" value="&lt;b&gt;Orchestration&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Airflow, Dagster&lt;br&gt;dbt, Prefect&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a5d6a7;fontColor=#1b5e20;fontSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t5" value="&lt;b&gt;Governance&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Collibra, Alation&lt;br&gt;DataHub, Atlan&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;fontColor=#1b5e20;fontSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="745" y="510" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t6" value="&lt;b&gt;Modeling&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;ERwin, dbt&lt;br&gt;SqlDBM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;fontColor=#1b5e20;fontSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="890" y="510" width="130" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- Characteristics -->
+        <mxCell id="chars" value="&lt;b&gt;Scope:&lt;/b&gt; Data Domain | &lt;b&gt;Coding:&lt;/b&gt; 20-30% (SQL, Python) | &lt;b&gt;Business Interaction:&lt;/b&gt; High | &lt;b&gt;Reports to:&lt;/b&gt; Data Lead/CDO" style="text;html=1;strokeColor=none;fillColor=#fff3e0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#9d0208;" vertex="1" parent="1">
+          <mxGeometry x="180" y="660" width="700" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

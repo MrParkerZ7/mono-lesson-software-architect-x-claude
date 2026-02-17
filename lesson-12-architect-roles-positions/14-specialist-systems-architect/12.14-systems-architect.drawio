@@ -1,0 +1,173 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" version="22.1.0">
+  <diagram name="Systems Architect" id="sys-arch-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="&lt;b&gt;SYSTEMS ARCHITECT&lt;/b&gt;&lt;br&gt;Complex Multi-Component System Design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#455a64;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="600" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- System Overview -->
+        <mxCell id="sys-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eceff1;strokeColor=#455a64;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="780" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="sys-title" value="&lt;b&gt;COMPLEX SYSTEM (e.g., Aerospace, Automotive, Telecom)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#455a64;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="440" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Hardware Components -->
+        <mxCell id="hw-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfd8dc;strokeColor=#607d8b;strokeWidth=1;strokeDashArray=3 3;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hw-title" value="&lt;b&gt;HARDWARE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#455a64;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hw1" value="&lt;b&gt;Processors&lt;/b&gt;&lt;br&gt;CPU, GPU, FPGA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#546e7a;fontColor=#fff;strokeColor=#37474f;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hw2" value="&lt;b&gt;Sensors&lt;/b&gt;&lt;br&gt;IoT, Telemetry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#78909c;fontColor=#fff;strokeColor=#546e7a;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hw3" value="&lt;b&gt;Actuators&lt;/b&gt;&lt;br&gt;Motors, Relays" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90a4ae;fontColor=#37474f;strokeColor=#78909c;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hw4" value="&lt;b&gt;Comm HW&lt;/b&gt;&lt;br&gt;Radios, Buses" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0bec5;fontColor=#37474f;strokeColor=#90a4ae;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Software Components -->
+        <mxCell id="sw-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfd8dc;strokeColor=#607d8b;strokeWidth=1;strokeDashArray=3 3;" vertex="1" parent="1">
+          <mxGeometry x="420" y="140" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sw-title" value="&lt;b&gt;SOFTWARE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#455a64;" vertex="1" parent="1">
+          <mxGeometry x="510" y="150" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sw1" value="&lt;b&gt;Embedded SW&lt;/b&gt;&lt;br&gt;RTOS, Firmware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#546e7a;fontColor=#fff;strokeColor=#37474f;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sw2" value="&lt;b&gt;Middleware&lt;/b&gt;&lt;br&gt;DDS, ARINC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#78909c;fontColor=#fff;strokeColor=#546e7a;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sw3" value="&lt;b&gt;Applications&lt;/b&gt;&lt;br&gt;Control Logic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90a4ae;fontColor=#37474f;strokeColor=#78909c;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sw4" value="&lt;b&gt;Services&lt;/b&gt;&lt;br&gt;Backend APIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0bec5;fontColor=#37474f;strokeColor=#90a4ae;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Integration -->
+        <mxCell id="int-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;strokeColor=#455a64;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="225" as="sourcePoint" />
+            <mxPoint x="420" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- System Interfaces -->
+        <mxCell id="int-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0bec5;strokeColor=#607d8b;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="350" width="630" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="int-title" value="&lt;b&gt;SYSTEM INTERFACES &amp; PROTOCOLS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#37474f;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1" value="CAN Bus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#455a64;fontColor=#fff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="110" y="390" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="i2" value="MIL-STD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#546e7a;fontColor=#fff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="190" y="390" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="i3" value="ARINC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#607d8b;fontColor=#fff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="i4" value="Ethernet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#78909c;fontColor=#fff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="i5" value="DDS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90a4ae;fontColor=#37474f;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="430" y="390" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="i6" value="Custom" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0bec5;fontColor=#37474f;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="70" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- External Systems -->
+        <mxCell id="ext1" value="&lt;b&gt;Ground&lt;br&gt;Station&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eceff1;fontColor=#455a64;strokeColor=#90a4ae;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ext2" value="&lt;b&gt;External&lt;br&gt;Sensors&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eceff1;fontColor=#455a64;strokeColor=#90a4ae;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ext3" value="&lt;b&gt;Cloud&lt;br&gt;Backend&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eceff1;fontColor=#455a64;strokeColor=#90a4ae;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Systems Architect -->
+        <mxCell id="sa-central" value="&lt;b&gt;SYSTEMS&lt;br&gt;ARCHITECT&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Design • Integrate&lt;br&gt;Verify • Validate&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#455a64;fontColor=#ffffff;strokeColor=#263238;strokeWidth=3;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="200" width="140" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Focus Areas -->
+        <mxCell id="focus-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#455a64;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="870" y="90" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="focus-title" value="&lt;b&gt;KEY FOCUS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#455a64;" vertex="1" parent="1">
+          <mxGeometry x="920" y="98" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" value="HW/SW Co-Design" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#455a64;fontColor=#fff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="885" y="122" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" value="System Safety" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#607d8b;fontColor=#fff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="975" y="122" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" value="Requirements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#78909c;fontColor=#fff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="885" y="155" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" value="Certification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#90a4ae;fontColor=#37474f;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="975" y="155" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Industries -->
+        <mxCell id="ind-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ff9800;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="320" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ind-title" value="&lt;b&gt;INDUSTRIES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#e65100;" vertex="1" parent="1">
+          <mxGeometry x="920" y="330" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ind1" value="Aerospace" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ff9800;fontColor=#fff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="885" y="360" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ind2" value="Automotive" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffa726;fontColor=#fff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="975" y="360" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ind3" value="Defense" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffb74d;fontColor=#e65100;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="885" y="390" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ind4" value="Telecom" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc80;fontColor=#e65100;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="975" y="390" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Standards -->
+        <mxCell id="std-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#4caf50;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="440" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="std-title" value="&lt;b&gt;STANDARDS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#2e7d32;" vertex="1" parent="1">
+          <mxGeometry x="920" y="450" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="std1" value="DO-178C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4caf50;fontColor=#fff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="885" y="480" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="std2" value="ISO 26262" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66bb6a;fontColor=#fff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="975" y="480" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Characteristics -->
+        <mxCell id="chars" value="&lt;b&gt;Scope:&lt;/b&gt; Multi-Component System | &lt;b&gt;Coding:&lt;/b&gt; 20-30% | &lt;b&gt;Business Interaction:&lt;/b&gt; Medium | &lt;b&gt;Reports to:&lt;/b&gt; Engineering Director" style="text;html=1;strokeColor=none;fillColor=#eceff1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#37474f;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="700" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

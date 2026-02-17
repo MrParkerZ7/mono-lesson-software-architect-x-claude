@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" version="22.1.0">
+  <diagram name="Software Architect" id="soft-arch-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="&lt;b&gt;SOFTWARE ARCHITECT&lt;/b&gt;&lt;br&gt;Software System Design &amp; Development Practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#1b4332;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="600" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Software System Overview -->
+        <mxCell id="system-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d8f3dc;strokeColor=#2d6a4f;strokeWidth=3;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="550" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="system-label" value="&lt;b&gt;SOFTWARE SYSTEM SCOPE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#1b4332;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="270" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Multiple Services/Components -->
+        <mxCell id="service1" value="&lt;b&gt;Service A&lt;/b&gt;&lt;br&gt;API Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#40916c;fontColor=#ffffff;strokeColor=#1b4332;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="service2" value="&lt;b&gt;Service B&lt;/b&gt;&lt;br&gt;User Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#40916c;fontColor=#ffffff;strokeColor=#1b4332;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="service3" value="&lt;b&gt;Service C&lt;/b&gt;&lt;br&gt;Order Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#40916c;fontColor=#ffffff;strokeColor=#1b4332;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Shared Libraries -->
+        <mxCell id="shared" value="&lt;b&gt;Shared Libraries&lt;/b&gt;&lt;br&gt;Common Utils, Domain Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#52b788;fontColor=#ffffff;strokeColor=#1b4332;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="300" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Database Layer -->
+        <mxCell id="db1" value="&lt;b&gt;DB&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#74c69d;strokeColor=#1b4332;" vertex="1" parent="1">
+          <mxGeometry x="150" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="db2" value="&lt;b&gt;DB&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#74c69d;strokeColor=#1b4332;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cache" value="&lt;b&gt;Cache&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#95d5b2;strokeColor=#40916c;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows between services -->
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1b4332;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="195" as="sourcePoint" />
+            <mxPoint x="280" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1b4332;curved=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="195" as="sourcePoint" />
+            <mxPoint x="440" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Software Architect Responsibilities -->
+        <mxCell id="resp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#52b788;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="100" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="resp-title" value="&lt;b&gt;SOFTWARE ARCHITECT RESPONSIBILITIES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1b4332;" vertex="1" parent="1">
+          <mxGeometry x="740" y="110" width="320" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Code Quality -->
+        <mxCell id="quality-box" value="&lt;b&gt;Code Quality&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;• Coding standards&lt;br&gt;• Static analysis rules&lt;br&gt;• Code coverage targets&lt;br&gt;• Review guidelines&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#40916c;fontColor=#ffffff;strokeColor=#1b4332;shadow=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="170" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Technical Debt -->
+        <mxCell id="debt-box" value="&lt;b&gt;Technical Debt&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;• Debt identification&lt;br&gt;• Refactoring plans&lt;br&gt;• Modernization roadmap&lt;br&gt;• Risk assessment&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#52b788;fontColor=#ffffff;strokeColor=#1b4332;shadow=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="910" y="150" width="170" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Framework Decisions -->
+        <mxCell id="framework-box" value="&lt;b&gt;Framework &amp; Tools&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;• Technology selection&lt;br&gt;• Library evaluation&lt;br&gt;• Build tools config&lt;br&gt;• Testing frameworks&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74c69d;fontColor=#1b4332;strokeColor=#1b4332;shadow=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="270" width="170" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Development Practices -->
+        <mxCell id="practices-box" value="&lt;b&gt;Dev Practices&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;• CI/CD pipelines&lt;br&gt;• Branching strategy&lt;br&gt;• Release process&lt;br&gt;• Documentation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#95d5b2;fontColor=#1b4332;strokeColor=#40916c;shadow=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="910" y="270" width="170" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Time Distribution -->
+        <mxCell id="time-label" value="&lt;b&gt;30-40% CODING TIME&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#d8f3dc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#1b4332;" vertex="1" parent="1">
+          <mxGeometry x="780" y="390" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Comparison Box -->
+        <mxCell id="compare-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#ffc107;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="430" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="compare-text" value="&lt;b&gt;vs Application Architect:&lt;/b&gt; Software Architect has &lt;b&gt;broader scope&lt;/b&gt; across&lt;br&gt;multiple services/components, not just a single application." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#664d03;" vertex="1" parent="1">
+          <mxGeometry x="730" y="440" width="340" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Key Deliverables -->
+        <mxCell id="deliv-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#40916c;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="550" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="deliv-title" value="&lt;b&gt;KEY DELIVERABLES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1b4332;" vertex="1" parent="1">
+          <mxGeometry x="250" y="540" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="deliv1" value="&lt;b&gt;System Design Docs&lt;/b&gt;&lt;br&gt;High-level &amp; detailed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#40916c;fontColor=#fff;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="575" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="deliv2" value="&lt;b&gt;Coding Standards&lt;/b&gt;&lt;br&gt;Guidelines &amp; rules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#52b788;fontColor=#fff;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="235" y="575" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="deliv3" value="&lt;b&gt;Tech Debt Backlog&lt;/b&gt;&lt;br&gt;Prioritized items" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74c69d;fontColor=#1b4332;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="370" y="575" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="deliv4" value="&lt;b&gt;ADRs&lt;/b&gt;&lt;br&gt;Decision records" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#95d5b2;fontColor=#1b4332;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="505" y="575" width="110" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend" value="&lt;b&gt;Scope:&lt;/b&gt; Software System | &lt;b&gt;Coding:&lt;/b&gt; 30-40% | &lt;b&gt;Focus:&lt;/b&gt; Code Quality &amp; Tech Debt | &lt;b&gt;Reports to:&lt;/b&gt; Engineering Director" style="text;html=1;strokeColor=none;fillColor=#d8f3dc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#1b4332;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="700" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

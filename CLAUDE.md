@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an educational curriculum repository for Software Architects. It contains 11 structured lessons (00-10) covering architecture principles, cloud platforms, security, DevOps, and soft skills. This is NOT a software application - it's a knowledge base with markdown documentation and visual diagrams.
+This is an educational curriculum repository for Software Architects. It contains 13 structured lessons (00-12) covering architecture principles, cloud platforms, security, DevOps, soft skills, and architect career paths. This is NOT a software application - it's a knowledge base with markdown documentation and visual diagrams.
 
 ## Repository Structure
 
@@ -32,6 +32,8 @@ lesson-XX-topic-name/
 - **08**: Databases & Storage (relational, NoSQL, CAP theorem, caching)
 - **09**: Observability & Monitoring (logging, metrics, distributed tracing)
 - **10**: Soft Skills (communication, leadership, decision-making)
+- **11**: Architecture Fundamentals (principles, trade-offs, documentation)
+- **12**: Architect Roles & Positions (16 roles: hands-on, generalist, specialist, leadership)
 
 ## Working with Diagrams
 
