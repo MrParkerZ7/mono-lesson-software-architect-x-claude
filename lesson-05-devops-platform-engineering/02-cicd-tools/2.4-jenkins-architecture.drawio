@@ -163,7 +163,7 @@
         </mxCell>
 
         <!-- Connection Arrow -->
-        <mxCell id="conn-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#666666;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
+        <mxCell id="conn-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#666666;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=1;curved=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="270" as="sourcePoint" />
             <mxPoint x="600" y="270" as="targetPoint" />

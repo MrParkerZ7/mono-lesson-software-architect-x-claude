@@ -25,7 +25,7 @@
         <mxCell id="exec-style" value="High-level, Business-focused, ROI-oriented" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="560" y="195" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="exec-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="executives" target="architect" edge="1">
+        <mxCell id="exec-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;" parent="1" source="executives" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
@@ -39,7 +39,7 @@
         <mxCell id="product-style" value="Feature-focused, Trade-off discussions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="140" y="285" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="product-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="product" target="architect" edge="1">
+        <mxCell id="product-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;" parent="1" source="product" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
@@ -53,7 +53,7 @@
         <mxCell id="devteam-style" value="Detailed, Technical, Collaborative" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="140" y="545" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="devteam-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="devteam" target="architect" edge="1">
+        <mxCell id="devteam-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;" parent="1" source="devteam" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
@@ -67,7 +67,7 @@
         <mxCell id="pm-style" value="Timeline-focused, Risk-aware" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="980" y="285" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pm-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="pm" target="architect" edge="1">
+        <mxCell id="pm-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;" parent="1" source="pm" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
@@ -81,7 +81,7 @@
         <mxCell id="devops-style" value="Practical, Operations-focused" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="560" y="665" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="devops-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#9673a6;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="devops" target="architect" edge="1">
+        <mxCell id="devops-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#9673a6;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;" parent="1" source="devops" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
@@ -95,7 +95,7 @@
         <mxCell id="security-style" value="Risk-focused, Compliance-oriented" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="980" y="545" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="security-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="security" target="architect" edge="1">
+        <mxCell id="security-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;" parent="1" source="security" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 

@@ -98,7 +98,7 @@
         </mxCell>
 
         <!-- Connection -->
-        <mxCell id="plane-conn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="control-plane" target="data-plane">
+        <mxCell id="plane-conn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="control-plane" target="data-plane">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="plane-label" value="Config&#xa;Push" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;" vertex="1" parent="1">
@@ -244,13 +244,13 @@
         </mxCell>
 
         <!-- Connections between pods (mTLS) -->
-        <mxCell id="conn-1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;startArrow=classic;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="envoy1" target="envoy2">
+        <mxCell id="conn-1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;startArrow=classic;dashed=1;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="envoy1" target="envoy2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="conn-2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;startArrow=classic;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="envoy2" target="envoy3">
+        <mxCell id="conn-2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;startArrow=classic;dashed=1;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="envoy2" target="envoy3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="conn-3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;startArrow=classic;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="envoy3" target="envoy4">
+        <mxCell id="conn-3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;startArrow=classic;dashed=1;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="envoy3" target="envoy4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mtls-label" value="mTLS encrypted traffic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;fontColor=#82b366;" vertex="1" parent="1">

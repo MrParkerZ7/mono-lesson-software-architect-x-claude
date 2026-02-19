@@ -73,7 +73,7 @@
                 <mxCell id="ws-s" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="840" y="170" width="40" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="ws-arr1" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=8;strokeColor=#82b366;strokeWidth=2;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
+                <mxCell id="ws-arr1" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=8;strokeColor=#82b366;strokeWidth=2;shadow=1;curved=1;jumpStyle=arc" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="750" y="187.5" as="sourcePoint"/>
                         <mxPoint x="840" y="187.5" as="targetPoint"/>
@@ -220,7 +220,7 @@
                 <mxCell id="room3" value="Room: game-123" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="970" y="455" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="arr-clients-server" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="clients" target="ws-server" edge="1">
+                <mxCell id="arr-clients-server" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=1;curved=1;jumpStyle=arc" parent="1" source="clients" target="ws-server" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="arr-server-handler" value="" style="endArrow=classic;html=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="ws-server" target="handler" edge="1">
@@ -277,7 +277,7 @@
                 <mxCell id="arr-lb-ws3" value="" style="endArrow=classic;html=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="lb" target="ws3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="arr-ws-redis" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="ws2" target="redis" edge="1">
+                <mxCell id="arr-ws-redis" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=1;curved=1;jumpStyle=arc" parent="1" source="ws2" target="redis" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>

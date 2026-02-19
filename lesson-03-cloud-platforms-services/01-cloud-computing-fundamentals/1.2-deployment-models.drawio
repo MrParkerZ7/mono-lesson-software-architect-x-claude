@@ -85,7 +85,7 @@
           <mxGeometry x="930" y="140" width="80" height="60" as="geometry" />
         </mxCell>
 
-        <mxCell id="hybrid-connect" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;width=10;endSize=5;startSize=5;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
+        <mxCell id="hybrid-connect" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;width=10;endSize=5;startSize=5;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="840" y="170" as="sourcePoint" />
             <mxPoint x="920" y="170" as="targetPoint" />

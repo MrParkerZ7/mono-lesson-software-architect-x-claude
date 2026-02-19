@@ -43,7 +43,7 @@
         </mxCell>
 
         <!-- Invite Arrow -->
-        <mxCell id="invite-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#1565c0;strokeWidth=2;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
+        <mxCell id="invite-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#1565c0;strokeWidth=2;shadow=1;curved=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="265" as="sourcePoint" />
             <mxPoint x="400" y="265" as="targetPoint" />

@@ -236,7 +236,7 @@
         <mxCell id="sp-app" value="📱 Your App&#xa;(SP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ffc107;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="605" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sp-arrow2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#ff8f00;strokeWidth=2;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
+        <mxCell id="sp-arrow2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#ff8f00;strokeWidth=2;shadow=1;curved=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="630" as="sourcePoint" />
             <mxPoint x="360" y="630" as="targetPoint" />

@@ -25,13 +25,13 @@
                 <mxCell id="trad-db" value="Single&#xa;Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="155" y="340" width="90" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="trad-arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="trad-client" target="trad-api" edge="1">
+                <mxCell id="trad-arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" parent="1" source="trad-client" target="trad-api" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="trad-arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="trad-api" target="trad-model" edge="1">
+                <mxCell id="trad-arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" parent="1" source="trad-api" target="trad-model" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="trad-arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="trad-model" target="trad-db" edge="1">
+                <mxCell id="trad-arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" parent="1" source="trad-model" target="trad-db" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="vs-text" value="VS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#666666;" parent="1" vertex="1">
@@ -205,7 +205,7 @@
                 <mxCell id="es-arr11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="es-proj3" target="es-read3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="es-arr12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="es-query" target="es-client" edge="1">
+                <mxCell id="es-arr12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" parent="1" source="es-query" target="es-client" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="benefits-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" parent="1" vertex="1">

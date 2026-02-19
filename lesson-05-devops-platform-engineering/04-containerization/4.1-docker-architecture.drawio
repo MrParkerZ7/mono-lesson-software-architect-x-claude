@@ -128,7 +128,7 @@
         </mxCell>
 
         <!-- Arrow Registry to Host -->
-        <mxCell id="arrow2" value="pull/push" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;fontSize=9;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
+        <mxCell id="arrow2" value="pull/push" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;fontSize=9;shadow=1;curved=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="345" as="sourcePoint" />
             <mxPoint x="340" y="280" as="targetPoint" />

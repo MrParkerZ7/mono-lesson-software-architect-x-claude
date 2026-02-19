@@ -147,10 +147,10 @@
         </mxCell>
 
         <!-- ER Connections -->
-        <mxCell id="er-conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=3;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="onprem-router" target="er-provider">
+        <mxCell id="er-conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=3;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="onprem-router" target="er-provider">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="er-conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=3;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="er-peering" target="er-gw">
+        <mxCell id="er-conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=3;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="er-peering" target="er-gw">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 

@@ -76,19 +76,19 @@
         </mxCell>
 
         <!-- Arrows to Event Bus -->
-        <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="order-service" target="event-bus">
+        <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="order-service" target="event-bus">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="payment-service" target="event-bus">
+        <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="payment-service" target="event-bus">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="inventory-service" target="event-bus">
+        <mxCell id="arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="inventory-service" target="event-bus">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arrow4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="shipping-service" target="event-bus">
+        <mxCell id="arrow4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="shipping-service" target="event-bus">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arrow5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="notification-service" target="event-bus">
+        <mxCell id="arrow5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;strokeWidth=2;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="notification-service" target="event-bus">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 

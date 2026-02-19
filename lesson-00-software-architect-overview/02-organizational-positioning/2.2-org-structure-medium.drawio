@@ -79,10 +79,10 @@
         </mxCell>
 
         <!-- Collaboration arrows -->
-        <mxCell id="collab1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="sol-arch-a" target="dev-lead" edge="1">
+        <mxCell id="collab1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;" parent="1" source="sol-arch-a" target="dev-lead" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="collab2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="sol-arch-b" target="platform-team" edge="1">
+        <mxCell id="collab2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;" parent="1" source="sol-arch-b" target="platform-team" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 

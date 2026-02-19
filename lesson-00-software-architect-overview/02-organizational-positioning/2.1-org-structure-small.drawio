@@ -47,10 +47,10 @@
         </mxCell>
 
         <!-- Bidirectional arrows -->
-        <mxCell id="arch-dev" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="architect" target="dev-team" edge="1">
+        <mxCell id="arch-dev" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;" parent="1" source="architect" target="dev-team" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arch-devops" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="architect" target="devops" edge="1">
+        <mxCell id="arch-devops" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;dashed=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;" parent="1" source="architect" target="devops" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 

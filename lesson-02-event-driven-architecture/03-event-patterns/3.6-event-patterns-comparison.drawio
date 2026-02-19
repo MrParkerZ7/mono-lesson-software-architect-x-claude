@@ -389,7 +389,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
-        <mxCell id="arr12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="query-api" target="client">
+        <mxCell id="arr12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;startArrow=classic;shadow=1;curved=1;jumpStyle=arc" edge="1" parent="1" source="query-api" target="client">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 

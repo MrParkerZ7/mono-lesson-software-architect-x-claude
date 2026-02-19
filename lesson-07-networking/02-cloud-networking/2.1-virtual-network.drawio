@@ -158,13 +158,13 @@
         </mxCell>
 
         <!-- Connections -->
-        <mxCell id="conn-internet" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
+        <mxCell id="conn-internet" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880" y="140" as="sourcePoint" />
             <mxPoint x="920" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="conn-onprem" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#d6b656;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
+        <mxCell id="conn-onprem" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#d6b656;dashed=1;shadow=1;curved=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="430" as="sourcePoint" />
             <mxPoint x="920" y="310" as="targetPoint" />

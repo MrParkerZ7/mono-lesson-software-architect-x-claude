@@ -54,7 +54,7 @@ lesson-XX-topic-name/
 ### Styling Standards
 - Enable shadows on shapes (`shadow=1`)
 - Use curved arrows where appropriate (`curved=1`)
-- Add flow animation to directional arrows (`flowAnimation=1`)
+- Add flow animation to unidirectional arrows only (`flowAnimation=1`) - do NOT add to bidirectional arrows
 - Use consistent color schemes within each lesson
 - Include title and descriptive labels in diagrams
 

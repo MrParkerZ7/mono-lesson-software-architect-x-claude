@@ -258,7 +258,7 @@
         <mxCell id="zk-desc" value="Cluster coordination&#xa;Leader election" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="1165" y="190" width="110" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="zk-arr" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=1;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
+        <mxCell id="zk-arr" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=1;dashed=1;shadow=1;curved=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1120" y="180" as="sourcePoint" />
             <mxPoint x="1160" y="180" as="targetPoint" />

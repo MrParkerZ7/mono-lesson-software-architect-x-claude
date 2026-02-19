@@ -39,19 +39,19 @@
         </mxCell>
 
         <!-- Arrows between layers -->
-        <mxCell id="arrow1" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#1b4332;flowAnimation=1;" edge="1" parent="1">
+        <mxCell id="arrow1" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#1b4332;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="210" as="sourcePoint" />
             <mxPoint x="350" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arrow2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#1b4332;flowAnimation=1;" edge="1" parent="1">
+        <mxCell id="arrow2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#1b4332;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="300" as="sourcePoint" />
             <mxPoint x="350" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arrow3" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#1b4332;flowAnimation=1;" edge="1" parent="1">
+        <mxCell id="arrow3" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#1b4332;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="390" as="sourcePoint" />
             <mxPoint x="350" y="420" as="targetPoint" />
