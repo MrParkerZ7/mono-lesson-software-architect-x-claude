@@ -1,6 +1,6 @@
 ﻿<mxfile host="65bd71144e">
     <diagram id="websocket" name="WebSocket Communication">
-        <mxGraphModel dx="1466" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+        <mxGraphModel dx="1126" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -133,10 +133,10 @@
                 <mxCell id="handshake-label" value="1. HTTP Upgrade Handshake" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="330" y="375" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="handshake-req" value="HTTP GET /chat&#xa;Upgrade: websocket&#xa;Connection: Upgrade" style="endArrow=classic;html=1;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" target="server" edge="1">
+                <mxCell id="handshake-req" value="HTTP GET /chat&#xa;Upgrade: websocket&#xa;Connection: Upgrade" style="endArrow=classic;html=1;fontSize=8;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="150" y="405" as="sourcePoint"/>
-                        <mxPoint x="650" y="405" as="targetPoint"/>
+                        <mxPoint x="145" y="404" as="sourcePoint"/>
+                        <mxPoint x="655" y="404" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="handshake-res" value="HTTP 101 Switching Protocols&#xa;Upgrade: websocket" style="endArrow=classic;html=1;fontSize=8;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
